@@ -1,0 +1,1884 @@
+{
+  "method": "improved_grid",
+  "total_panels": 125,
+  "detection_time": "2025-06-16T19:36:33.874978",
+  "image_size": {
+    "width": 8000,
+    "height": 6000
+  },
+  "panels": [
+    {
+      "id": "P001",
+      "grid_position": "R1-C1",
+      "row": 1,
+      "column": 1,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "width": 193,
+        "height": 132
+      },
+      "panel_pixel_ratio": 0.996349505416863,
+      "aspect_ratio": 1.4621212121212122,
+      "refined_area": 25152.0
+    },
+    {
+      "id": "P002",
+      "grid_position": "R1-C3",
+      "row": 1,
+      "column": 3,
+      "position": {
+        "x": 752,
+        "y": 0,
+        "width": 117,
+        "height": 132
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.8863636363636364,
+      "refined_area": 15196.0
+    },
+    {
+      "id": "P003",
+      "grid_position": "R1-C5",
+      "row": 1,
+      "column": 5,
+      "position": {
+        "x": 2306,
+        "y": 0,
+        "width": 84,
+        "height": 132
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.6363636363636364,
+      "refined_area": 10873.0
+    },
+    {
+      "id": "P004",
+      "grid_position": "R1-C7",
+      "row": 1,
+      "column": 7,
+      "position": {
+        "x": 2447,
+        "y": 0,
+        "width": 129,
+        "height": 132
+      },
+      "panel_pixel_ratio": 0.6644416189870735,
+      "aspect_ratio": 1.0833333333333333,
+      "refined_area": 10476.5
+    },
+    {
+      "id": "P005",
+      "grid_position": "R1-C8",
+      "row": 1,
+      "column": 8,
+      "position": {
+        "x": 2576,
+        "y": 0,
+        "width": 126,
+        "height": 132
+      },
+      "panel_pixel_ratio": 0.9847282347282347,
+      "aspect_ratio": 0.9545454545454546,
+      "refined_area": 16101.5
+    },
+    {
+      "id": "P006",
+      "grid_position": "R1-C10",
+      "row": 1,
+      "column": 10,
+      "position": {
+        "x": 2744,
+        "y": 0,
+        "width": 198,
+        "height": 132
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 1.5,
+      "refined_area": 25807.0
+    },
+    {
+      "id": "P007",
+      "grid_position": "R1-C11",
+      "row": 1,
+      "column": 11,
+      "position": {
+        "x": 2942,
+        "y": 0,
+        "width": 84,
+        "height": 132
+      },
+      "panel_pixel_ratio": 0.9991883116883117,
+      "aspect_ratio": 0.6363636363636364,
+      "refined_area": 10864.0
+    },
+    {
+      "id": "P008",
+      "grid_position": "R1-C12",
+      "row": 1,
+      "column": 12,
+      "position": {
+        "x": 3026,
+        "y": 0,
+        "width": 65,
+        "height": 132
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.49242424242424243,
+      "refined_area": 8384.0
+    },
+    {
+      "id": "P009",
+      "grid_position": "R1-C13",
+      "row": 1,
+      "column": 13,
+      "position": {
+        "x": 3091,
+        "y": 0,
+        "width": 177,
+        "height": 132
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 1.3409090909090908,
+      "refined_area": 23056.0
+    },
+    {
+      "id": "P010",
+      "grid_position": "R1-C14",
+      "row": 1,
+      "column": 14,
+      "position": {
+        "x": 3268,
+        "y": 0,
+        "width": 237,
+        "height": 132
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 1.7954545454545454,
+      "refined_area": 30916.0
+    },
+    {
+      "id": "P011",
+      "grid_position": "R1-C15",
+      "row": 1,
+      "column": 15,
+      "position": {
+        "x": 3505,
+        "y": 0,
+        "width": 165,
+        "height": 132
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 1.25,
+      "refined_area": 21484.0
+    },
+    {
+      "id": "P012",
+      "grid_position": "R1-C17",
+      "row": 1,
+      "column": 17,
+      "position": {
+        "x": 4181,
+        "y": 0,
+        "width": 366,
+        "height": 132
+      },
+      "panel_pixel_ratio": 0.99826130153999,
+      "aspect_ratio": 2.772727272727273,
+      "refined_area": 47815.0
+    },
+    {
+      "id": "P013",
+      "grid_position": "R1-C18",
+      "row": 1,
+      "column": 18,
+      "position": {
+        "x": 4547,
+        "y": 0,
+        "width": 266,
+        "height": 132
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 2.015151515151515,
+      "refined_area": 34715.0
+    },
+    {
+      "id": "P014",
+      "grid_position": "R1-C19",
+      "row": 1,
+      "column": 19,
+      "position": {
+        "x": 4813,
+        "y": 0,
+        "width": 55,
+        "height": 132
+      },
+      "panel_pixel_ratio": 0.9238292011019283,
+      "aspect_ratio": 0.4166666666666667,
+      "refined_area": 7074.0
+    },
+    {
+      "id": "P015",
+      "grid_position": "R2-C1",
+      "row": 2,
+      "column": 1,
+      "position": {
+        "x": 0,
+        "y": 132,
+        "width": 193,
+        "height": 264
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.7310606060606061,
+      "refined_area": 50496.0
+    },
+    {
+      "id": "P016",
+      "grid_position": "R2-C2",
+      "row": 2,
+      "column": 2,
+      "position": {
+        "x": 193,
+        "y": 132,
+        "width": 559,
+        "height": 264
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 2.117424242424242,
+      "refined_area": 146754.0
+    },
+    {
+      "id": "P017",
+      "grid_position": "R2-C3",
+      "row": 2,
+      "column": 3,
+      "position": {
+        "x": 752,
+        "y": 132,
+        "width": 117,
+        "height": 264
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.4431818181818182,
+      "refined_area": 30508.0
+    },
+    {
+      "id": "P018",
+      "grid_position": "R2-C5",
+      "row": 2,
+      "column": 5,
+      "position": {
+        "x": 2306,
+        "y": 132,
+        "width": 84,
+        "height": 161
+      },
+      "panel_pixel_ratio": 0.5590277777777778,
+      "aspect_ratio": 0.3181818181818182,
+      "refined_area": 7557.5
+    },
+    {
+      "id": "P019",
+      "grid_position": "R2-C7",
+      "row": 2,
+      "column": 7,
+      "position": {
+        "x": 2433,
+        "y": 132,
+        "width": 143,
+        "height": 237
+      },
+      "panel_pixel_ratio": 0.7959048527230346,
+      "aspect_ratio": 0.5416666666666666,
+      "refined_area": 30763.0
+    },
+    {
+      "id": "P020",
+      "grid_position": "R2-C8",
+      "row": 2,
+      "column": 8,
+      "position": {
+        "x": 2576,
+        "y": 132,
+        "width": 126,
+        "height": 264
+      },
+      "panel_pixel_ratio": 0.8015572390572391,
+      "aspect_ratio": 0.4772727272727273,
+      "refined_area": 26213.5
+    },
+    {
+      "id": "P021",
+      "grid_position": "R2-C10",
+      "row": 2,
+      "column": 10,
+      "position": {
+        "x": 2744,
+        "y": 132,
+        "width": 198,
+        "height": 264
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.75,
+      "refined_area": 51811.0
+    },
+    {
+      "id": "P022",
+      "grid_position": "R2-C11",
+      "row": 2,
+      "column": 11,
+      "position": {
+        "x": 2942,
+        "y": 132,
+        "width": 84,
+        "height": 264
+      },
+      "panel_pixel_ratio": 0.997564935064935,
+      "aspect_ratio": 0.3181818181818182,
+      "refined_area": 21770.0
+    },
+    {
+      "id": "P023",
+      "grid_position": "R2-C13",
+      "row": 2,
+      "column": 13,
+      "position": {
+        "x": 3091,
+        "y": 132,
+        "width": 177,
+        "height": 264
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.6704545454545454,
+      "refined_area": 46288.0
+    },
+    {
+      "id": "P024",
+      "grid_position": "R2-C14",
+      "row": 2,
+      "column": 14,
+      "position": {
+        "x": 3268,
+        "y": 132,
+        "width": 237,
+        "height": 264
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.8977272727272727,
+      "refined_area": 62068.0
+    },
+    {
+      "id": "P025",
+      "grid_position": "R2-C15",
+      "row": 2,
+      "column": 15,
+      "position": {
+        "x": 3505,
+        "y": 132,
+        "width": 165,
+        "height": 264
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.625,
+      "refined_area": 43132.0
+    },
+    {
+      "id": "P026",
+      "grid_position": "R2-C16",
+      "row": 2,
+      "column": 16,
+      "position": {
+        "x": 3670,
+        "y": 132,
+        "width": 511,
+        "height": 264
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 1.9356060606060606,
+      "refined_area": 134130.0
+    },
+    {
+      "id": "P027",
+      "grid_position": "R2-C17",
+      "row": 2,
+      "column": 17,
+      "position": {
+        "x": 4181,
+        "y": 132,
+        "width": 366,
+        "height": 264
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 1.3863636363636365,
+      "refined_area": 95995.0
+    },
+    {
+      "id": "P028",
+      "grid_position": "R2-C18",
+      "row": 2,
+      "column": 18,
+      "position": {
+        "x": 4547,
+        "y": 132,
+        "width": 266,
+        "height": 264
+      },
+      "panel_pixel_ratio": 0.9616797676008202,
+      "aspect_ratio": 1.0075757575757576,
+      "refined_area": 67089.5
+    },
+    {
+      "id": "P029",
+      "grid_position": "R2-C20",
+      "row": 2,
+      "column": 20,
+      "position": {
+        "x": 5414,
+        "y": 132,
+        "width": 170,
+        "height": 264
+      },
+      "panel_pixel_ratio": 0.33752327746741156,
+      "aspect_ratio": 2.712121212121212,
+      "refined_area": 32698.5
+    },
+    {
+      "id": "P030",
+      "grid_position": "R3-C1",
+      "row": 3,
+      "column": 1,
+      "position": {
+        "x": 0,
+        "y": 396,
+        "width": 193,
+        "height": 142
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 1.3591549295774648,
+      "refined_area": 27072.0
+    },
+    {
+      "id": "P031",
+      "grid_position": "R3-C3",
+      "row": 3,
+      "column": 3,
+      "position": {
+        "x": 752,
+        "y": 396,
+        "width": 117,
+        "height": 142
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.823943661971831,
+      "refined_area": 16356.0
+    },
+    {
+      "id": "P032",
+      "grid_position": "R3-C8",
+      "row": 3,
+      "column": 8,
+      "position": {
+        "x": 2576,
+        "y": 459,
+        "width": 126,
+        "height": 79
+      },
+      "panel_pixel_ratio": 0.2647551978537894,
+      "aspect_ratio": 0.8873239436619719,
+      "refined_area": 3978.0
+    },
+    {
+      "id": "P033",
+      "grid_position": "R3-C10",
+      "row": 3,
+      "column": 10,
+      "position": {
+        "x": 2744,
+        "y": 396,
+        "width": 198,
+        "height": 93
+      },
+      "panel_pixel_ratio": 0.8981007255655143,
+      "aspect_ratio": 1.3943661971830985,
+      "refined_area": 18075.0
+    },
+    {
+      "id": "P034",
+      "grid_position": "R3-C11",
+      "row": 3,
+      "column": 11,
+      "position": {
+        "x": 2942,
+        "y": 396,
+        "width": 84,
+        "height": 93
+      },
+      "panel_pixel_ratio": 0.7904929577464789,
+      "aspect_ratio": 0.5915492957746479,
+      "refined_area": 7559.0
+    },
+    {
+      "id": "P035",
+      "grid_position": "R3-C12",
+      "row": 3,
+      "column": 12,
+      "position": {
+        "x": 3026,
+        "y": 396,
+        "width": 65,
+        "height": 93
+      },
+      "panel_pixel_ratio": 0.7873239436619718,
+      "aspect_ratio": 0.45774647887323944,
+      "refined_area": 5824.0
+    },
+    {
+      "id": "P036",
+      "grid_position": "R3-C13",
+      "row": 3,
+      "column": 13,
+      "position": {
+        "x": 3091,
+        "y": 396,
+        "width": 177,
+        "height": 93
+      },
+      "panel_pixel_ratio": 0.7499005331423569,
+      "aspect_ratio": 1.2464788732394365,
+      "refined_area": 16039.0
+    },
+    {
+      "id": "P037",
+      "grid_position": "R3-C14",
+      "row": 3,
+      "column": 14,
+      "position": {
+        "x": 3268,
+        "y": 396,
+        "width": 237,
+        "height": 92
+      },
+      "panel_pixel_ratio": 0.6960242467463006,
+      "aspect_ratio": 1.6690140845070423,
+      "refined_area": 20382.0
+    },
+    {
+      "id": "P038",
+      "grid_position": "R3-C15",
+      "row": 3,
+      "column": 15,
+      "position": {
+        "x": 3505,
+        "y": 396,
+        "width": 165,
+        "height": 91
+      },
+      "panel_pixel_ratio": 0.7276995305164319,
+      "aspect_ratio": 1.1619718309859155,
+      "refined_area": 14602.5
+    },
+    {
+      "id": "P039",
+      "grid_position": "R3-C17",
+      "row": 3,
+      "column": 17,
+      "position": {
+        "x": 4181,
+        "y": 396,
+        "width": 366,
+        "height": 142
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 2.5774647887323945,
+      "refined_area": 51465.0
+    },
+    {
+      "id": "P040",
+      "grid_position": "R3-C18",
+      "row": 3,
+      "column": 18,
+      "position": {
+        "x": 4547,
+        "y": 396,
+        "width": 257,
+        "height": 142
+      },
+      "panel_pixel_ratio": 0.9331515408238907,
+      "aspect_ratio": 1.8732394366197183,
+      "refined_area": 34890.5
+    },
+    {
+      "id": "P041",
+      "grid_position": "R4-C1",
+      "row": 4,
+      "column": 1,
+      "position": {
+        "x": 0,
+        "y": 538,
+        "width": 193,
+        "height": 270
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.7148148148148148,
+      "refined_area": 51648.0
+    },
+    {
+      "id": "P042",
+      "grid_position": "R4-C2",
+      "row": 4,
+      "column": 2,
+      "position": {
+        "x": 193,
+        "y": 538,
+        "width": 559,
+        "height": 270
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 2.0703703703703704,
+      "refined_area": 150102.0
+    },
+    {
+      "id": "P043",
+      "grid_position": "R4-C3",
+      "row": 4,
+      "column": 3,
+      "position": {
+        "x": 752,
+        "y": 538,
+        "width": 117,
+        "height": 270
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.43333333333333335,
+      "refined_area": 31204.0
+    },
+    {
+      "id": "P044",
+      "grid_position": "R4-C8",
+      "row": 4,
+      "column": 8,
+      "position": {
+        "x": 2578,
+        "y": 538,
+        "width": 124,
+        "height": 78
+      },
+      "panel_pixel_ratio": 0.1363609641387419,
+      "aspect_ratio": 0.4666666666666667,
+      "refined_area": 4417.0
+    },
+    {
+      "id": "P045",
+      "grid_position": "R4-C11",
+      "row": 4,
+      "column": 11,
+      "position": {
+        "x": 2942,
+        "y": 538,
+        "width": 84,
+        "height": 270
+      },
+      "panel_pixel_ratio": 0.10405643738977072,
+      "aspect_ratio": 0.3111111111111111
+    },
+    {
+      "id": "P046",
+      "grid_position": "R4-C14",
+      "row": 4,
+      "column": 14,
+      "position": {
+        "x": 3268,
+        "y": 563,
+        "width": 237,
+        "height": 102
+      },
+      "panel_pixel_ratio": 0.1522737927801219,
+      "aspect_ratio": 0.8777777777777778,
+      "refined_area": 9280.5
+    },
+    {
+      "id": "P047",
+      "grid_position": "R4-C15",
+      "row": 4,
+      "column": 15,
+      "position": {
+        "x": 3505,
+        "y": 582,
+        "width": 153,
+        "height": 85
+      },
+      "panel_pixel_ratio": 0.13088664421997756,
+      "aspect_ratio": 0.6111111111111112,
+      "refined_area": 5273.5
+    },
+    {
+      "id": "P048",
+      "grid_position": "R4-C16",
+      "row": 4,
+      "column": 16,
+      "position": {
+        "x": 3702,
+        "y": 538,
+        "width": 328,
+        "height": 130
+      },
+      "panel_pixel_ratio": 0.487598753352178,
+      "aspect_ratio": 1.8925925925925926,
+      "refined_area": 38160.0
+    },
+    {
+      "id": "P049",
+      "grid_position": "R4-C17",
+      "row": 4,
+      "column": 17,
+      "position": {
+        "x": 4181,
+        "y": 538,
+        "width": 366,
+        "height": 270
+      },
+      "panel_pixel_ratio": 0.9189738919247116,
+      "aspect_ratio": 1.3555555555555556,
+      "refined_area": 90041.0
+    },
+    {
+      "id": "P050",
+      "grid_position": "R4-C18",
+      "row": 4,
+      "column": 18,
+      "position": {
+        "x": 4547,
+        "y": 538,
+        "width": 266,
+        "height": 270
+      },
+      "panel_pixel_ratio": 0.9986215538847117,
+      "aspect_ratio": 0.9851851851851852,
+      "refined_area": 71284.5
+    },
+    {
+      "id": "P051",
+      "grid_position": "R4-C20",
+      "row": 4,
+      "column": 20,
+      "position": {
+        "x": 5347,
+        "y": 538,
+        "width": 237,
+        "height": 270
+      },
+      "panel_pixel_ratio": 0.3871456652182909,
+      "aspect_ratio": 2.651851851851852,
+      "refined_area": 45346.5
+    },
+    {
+      "id": "P052",
+      "grid_position": "R5-C1",
+      "row": 5,
+      "column": 1,
+      "position": {
+        "x": 0,
+        "y": 808,
+        "width": 193,
+        "height": 95
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 2.031578947368421,
+      "refined_area": 18048.0
+    },
+    {
+      "id": "P053",
+      "grid_position": "R5-C3",
+      "row": 5,
+      "column": 3,
+      "position": {
+        "x": 752,
+        "y": 808,
+        "width": 117,
+        "height": 95
+      },
+      "panel_pixel_ratio": 0.9956815114709852,
+      "aspect_ratio": 1.231578947368421,
+      "refined_area": 10851.0
+    },
+    {
+      "id": "P054",
+      "grid_position": "R5-C7",
+      "row": 5,
+      "column": 7,
+      "position": {
+        "x": 2433,
+        "y": 842,
+        "width": 67,
+        "height": 61
+      },
+      "panel_pixel_ratio": 0.24593301435406698,
+      "aspect_ratio": 1.5052631578947369,
+      "refined_area": 3222.0
+    },
+    {
+      "id": "P055",
+      "grid_position": "R5-C18",
+      "row": 5,
+      "column": 18,
+      "position": {
+        "x": 4547,
+        "y": 808,
+        "width": 266,
+        "height": 19
+      },
+      "panel_pixel_ratio": 0.1961614562722596,
+      "aspect_ratio": 2.8,
+      "refined_area": 4312.5
+    },
+    {
+      "id": "P056",
+      "grid_position": "R5-C19",
+      "row": 5,
+      "column": 19,
+      "position": {
+        "x": 4813,
+        "y": 808,
+        "width": 55,
+        "height": 19
+      },
+      "panel_pixel_ratio": 0.19004784688995216,
+      "aspect_ratio": 0.5789473684210527,
+      "refined_area": 921.5
+    },
+    {
+      "id": "P057",
+      "grid_position": "R6-C1",
+      "row": 6,
+      "column": 1,
+      "position": {
+        "x": 0,
+        "y": 903,
+        "width": 193,
+        "height": 138
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 1.3985507246376812,
+      "refined_area": 26304.0
+    },
+    {
+      "id": "P058",
+      "grid_position": "R6-C3",
+      "row": 6,
+      "column": 3,
+      "position": {
+        "x": 752,
+        "y": 903,
+        "width": 117,
+        "height": 138
+      },
+      "panel_pixel_ratio": 0.991391056608448,
+      "aspect_ratio": 0.8478260869565217,
+      "refined_area": 15884.0
+    },
+    {
+      "id": "P059",
+      "grid_position": "R6-C5",
+      "row": 6,
+      "column": 5,
+      "position": {
+        "x": 2306,
+        "y": 903,
+        "width": 46,
+        "height": 138
+      },
+      "panel_pixel_ratio": 0.32936507936507936,
+      "aspect_ratio": 0.6086956521739131,
+      "refined_area": 3648.0
+    },
+    {
+      "id": "P060",
+      "grid_position": "R6-C7",
+      "row": 6,
+      "column": 7,
+      "position": {
+        "x": 2433,
+        "y": 903,
+        "width": 98,
+        "height": 138
+      },
+      "panel_pixel_ratio": 0.20487483530961792,
+      "aspect_ratio": 1.036231884057971,
+      "refined_area": 3624.0
+    },
+    {
+      "id": "P061",
+      "grid_position": "R6-C8",
+      "row": 6,
+      "column": 8,
+      "position": {
+        "x": 2591,
+        "y": 903,
+        "width": 55,
+        "height": 138
+      },
+      "panel_pixel_ratio": 0.29675638371290547,
+      "aspect_ratio": 0.9130434782608695,
+      "refined_area": 4896.5
+    },
+    {
+      "id": "P062",
+      "grid_position": "R6-C17",
+      "row": 6,
+      "column": 17,
+      "position": {
+        "x": 4181,
+        "y": 903,
+        "width": 366,
+        "height": 138
+      },
+      "panel_pixel_ratio": 0.894056387106993,
+      "aspect_ratio": 2.652173913043478,
+      "refined_area": 45590.5
+    },
+    {
+      "id": "P063",
+      "grid_position": "R6-C18",
+      "row": 6,
+      "column": 18,
+      "position": {
+        "x": 4547,
+        "y": 903,
+        "width": 131,
+        "height": 138
+      },
+      "panel_pixel_ratio": 0.33199847444698705,
+      "aspect_ratio": 1.9275362318840579,
+      "refined_area": 12829.5
+    },
+    {
+      "id": "P064",
+      "grid_position": "R8-C1",
+      "row": 8,
+      "column": 1,
+      "position": {
+        "x": 0,
+        "y": 1076,
+        "width": 193,
+        "height": 158
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 1.2215189873417722,
+      "refined_area": 30144.0
+    },
+    {
+      "id": "P065",
+      "grid_position": "R8-C3",
+      "row": 8,
+      "column": 3,
+      "position": {
+        "x": 752,
+        "y": 1076,
+        "width": 117,
+        "height": 158
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.740506329113924,
+      "refined_area": 18212.0
+    },
+    {
+      "id": "P066",
+      "grid_position": "R8-C5",
+      "row": 8,
+      "column": 5,
+      "position": {
+        "x": 2306,
+        "y": 1076,
+        "width": 84,
+        "height": 158
+      },
+      "panel_pixel_ratio": 0.8729656419529838,
+      "aspect_ratio": 0.5316455696202531,
+      "refined_area": 11354.0
+    },
+    {
+      "id": "P067",
+      "grid_position": "R8-C7",
+      "row": 8,
+      "column": 7,
+      "position": {
+        "x": 2433,
+        "y": 1126,
+        "width": 143,
+        "height": 108
+      },
+      "panel_pixel_ratio": 0.42006727449765424,
+      "aspect_ratio": 0.9050632911392406,
+      "refined_area": 8666.0
+    },
+    {
+      "id": "P068",
+      "grid_position": "R8-C8",
+      "row": 8,
+      "column": 8,
+      "position": {
+        "x": 2576,
+        "y": 1076,
+        "width": 109,
+        "height": 158
+      },
+      "panel_pixel_ratio": 0.6654611211573237,
+      "aspect_ratio": 0.7974683544303798,
+      "refined_area": 13419.0
+    },
+    {
+      "id": "P069",
+      "grid_position": "R8-C17",
+      "row": 8,
+      "column": 17,
+      "position": {
+        "x": 4181,
+        "y": 1076,
+        "width": 366,
+        "height": 158
+      },
+      "panel_pixel_ratio": 0.9973369302068202,
+      "aspect_ratio": 2.3164556962025316,
+      "refined_area": 57305.0
+    },
+    {
+      "id": "P070",
+      "grid_position": "R8-C18",
+      "row": 8,
+      "column": 18,
+      "position": {
+        "x": 4547,
+        "y": 1076,
+        "width": 177,
+        "height": 158
+      },
+      "panel_pixel_ratio": 0.586275816122585,
+      "aspect_ratio": 1.6835443037974684,
+      "refined_area": 20384.0
+    },
+    {
+      "id": "P071",
+      "grid_position": "R9-C1",
+      "row": 9,
+      "column": 1,
+      "position": {
+        "x": 0,
+        "y": 1234,
+        "width": 193,
+        "height": 160
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 1.20625,
+      "refined_area": 30528.0
+    },
+    {
+      "id": "P072",
+      "grid_position": "R9-C3",
+      "row": 9,
+      "column": 3,
+      "position": {
+        "x": 752,
+        "y": 1234,
+        "width": 117,
+        "height": 160
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.73125,
+      "refined_area": 18444.0
+    },
+    {
+      "id": "P073",
+      "grid_position": "R9-C5",
+      "row": 9,
+      "column": 5,
+      "position": {
+        "x": 2306,
+        "y": 1234,
+        "width": 84,
+        "height": 160
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.525,
+      "refined_area": 13197.0
+    },
+    {
+      "id": "P074",
+      "grid_position": "R9-C7",
+      "row": 9,
+      "column": 7,
+      "position": {
+        "x": 2433,
+        "y": 1234,
+        "width": 143,
+        "height": 160
+      },
+      "panel_pixel_ratio": 0.7560751748251748,
+      "aspect_ratio": 0.89375,
+      "refined_area": 18990.5
+    },
+    {
+      "id": "P075",
+      "grid_position": "R9-C8",
+      "row": 9,
+      "column": 8,
+      "position": {
+        "x": 2576,
+        "y": 1234,
+        "width": 126,
+        "height": 160
+      },
+      "panel_pixel_ratio": 0.960515873015873,
+      "aspect_ratio": 0.7875,
+      "refined_area": 19087.5
+    },
+    {
+      "id": "P076",
+      "grid_position": "R9-C17",
+      "row": 9,
+      "column": 17,
+      "position": {
+        "x": 4181,
+        "y": 1234,
+        "width": 366,
+        "height": 160
+      },
+      "panel_pixel_ratio": 0.9924863387978142,
+      "aspect_ratio": 2.2875,
+      "refined_area": 58035.0
+    },
+    {
+      "id": "P077",
+      "grid_position": "R9-C18",
+      "row": 9,
+      "column": 18,
+      "position": {
+        "x": 4547,
+        "y": 1234,
+        "width": 266,
+        "height": 160
+      },
+      "panel_pixel_ratio": 0.9702302631578947,
+      "aspect_ratio": 1.6625,
+      "refined_area": 41675.0
+    },
+    {
+      "id": "P078",
+      "grid_position": "R9-C19",
+      "row": 9,
+      "column": 19,
+      "position": {
+        "x": 4813,
+        "y": 1234,
+        "width": 55,
+        "height": 125
+      },
+      "panel_pixel_ratio": 0.6979545454545455,
+      "aspect_ratio": 0.34375,
+      "refined_area": 5024.0
+    },
+    {
+      "id": "P079",
+      "grid_position": "R10-C2",
+      "row": 10,
+      "column": 2,
+      "position": {
+        "x": 193,
+        "y": 1394,
+        "width": 559,
+        "height": 567
+      },
+      "panel_pixel_ratio": 0.550471752553523,
+      "aspect_ratio": 0.4508064516129032,
+      "refined_area": 312287.0
+    },
+    {
+      "id": "P080",
+      "grid_position": "R10-C4",
+      "row": 10,
+      "column": 4,
+      "position": {
+        "x": 869,
+        "y": 1394,
+        "width": 1437,
+        "height": 1240
+      },
+      "panel_pixel_ratio": 0.6674085797023369,
+      "aspect_ratio": 1.1588709677419355,
+      "refined_area": 1405357.0
+    },
+    {
+      "id": "P081",
+      "grid_position": "R10-C16",
+      "row": 10,
+      "column": 16,
+      "position": {
+        "x": 3670,
+        "y": 1863,
+        "width": 511,
+        "height": 771
+      },
+      "panel_pixel_ratio": 0.7923978915472508,
+      "aspect_ratio": 0.4120967741935484,
+      "refined_area": 387297.5
+    },
+    {
+      "id": "P082",
+      "grid_position": "R10-C20",
+      "row": 10,
+      "column": 20,
+      "position": {
+        "x": 4868,
+        "y": 2028,
+        "width": 603,
+        "height": 606
+      },
+      "panel_pixel_ratio": 0.5199394034961254,
+      "aspect_ratio": 0.5774193548387097,
+      "refined_area": 261647.0
+    },
+    {
+      "id": "P083",
+      "grid_position": "R10-C21",
+      "row": 10,
+      "column": 21,
+      "position": {
+        "x": 5584,
+        "y": 1394,
+        "width": 2415,
+        "height": 1240
+      },
+      "panel_pixel_ratio": 0.9698874641020504,
+      "aspect_ratio": 1.9475806451612903,
+      "refined_area": 2907600.0
+    },
+    {
+      "id": "P084",
+      "grid_position": "R11-C3",
+      "row": 11,
+      "column": 3,
+      "position": {
+        "x": 752,
+        "y": 2666,
+        "width": 117,
+        "height": 72
+      },
+      "panel_pixel_ratio": 0.5342702169625246,
+      "aspect_ratio": 1.125,
+      "refined_area": 6312.5
+    },
+    {
+      "id": "P085",
+      "grid_position": "R11-C5",
+      "row": 11,
+      "column": 5,
+      "position": {
+        "x": 2306,
+        "y": 2656,
+        "width": 84,
+        "height": 82
+      },
+      "panel_pixel_ratio": 0.4554716117216117,
+      "aspect_ratio": 0.8076923076923077,
+      "refined_area": 3943.0
+    },
+    {
+      "id": "P086",
+      "grid_position": "R11-C7",
+      "row": 11,
+      "column": 7,
+      "position": {
+        "x": 2433,
+        "y": 2688,
+        "width": 143,
+        "height": 50
+      },
+      "panel_pixel_ratio": 0.3600726196880043,
+      "aspect_ratio": 1.375,
+      "refined_area": 5160.5
+    },
+    {
+      "id": "P087",
+      "grid_position": "R11-C8",
+      "row": 11,
+      "column": 8,
+      "position": {
+        "x": 2576,
+        "y": 2696,
+        "width": 126,
+        "height": 42
+      },
+      "panel_pixel_ratio": 0.3292124542124542,
+      "aspect_ratio": 1.2115384615384615,
+      "refined_area": 4141.0
+    },
+    {
+      "id": "P088",
+      "grid_position": "R11-C10",
+      "row": 11,
+      "column": 10,
+      "position": {
+        "x": 2744,
+        "y": 2634,
+        "width": 198,
+        "height": 104
+      },
+      "panel_pixel_ratio": 0.9967463092463092,
+      "aspect_ratio": 1.9038461538461537,
+      "refined_area": 20288.0
+    },
+    {
+      "id": "P089",
+      "grid_position": "R11-C11",
+      "row": 11,
+      "column": 11,
+      "position": {
+        "x": 2942,
+        "y": 2634,
+        "width": 84,
+        "height": 104
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.8076923076923077,
+      "refined_area": 8549.0
+    },
+    {
+      "id": "P090",
+      "grid_position": "R11-C12",
+      "row": 11,
+      "column": 12,
+      "position": {
+        "x": 3026,
+        "y": 2634,
+        "width": 65,
+        "height": 104
+      },
+      "panel_pixel_ratio": 1.0,
+      "aspect_ratio": 0.625,
+      "refined_area": 6592.0
+    },
+    {
+      "id": "P091",
+      "grid_position": "R11-C13",
+      "row": 11,
+      "column": 13,
+      "position": {
+        "x": 3091,
+        "y": 2634,
+        "width": 177,
+        "height": 104
+      },
+      "panel_pixel_ratio": 0.9885375923511517,
+      "aspect_ratio": 1.7019230769230769,
+      "refined_area": 17983.5
+    },
+    {
+      "id": "P092",
+      "grid_position": "R11-C14",
+      "row": 11,
+      "column": 14,
+      "position": {
+        "x": 3268,
+        "y": 2634,
+        "width": 237,
+        "height": 104
+      },
+      "panel_pixel_ratio": 0.9915206101914963,
+      "aspect_ratio": 2.2788461538461537,
+      "refined_area": 24202.0
+    },
+    {
+      "id": "P093",
+      "grid_position": "R11-C15",
+      "row": 11,
+      "column": 15,
+      "position": {
+        "x": 3505,
+        "y": 2634,
+        "width": 165,
+        "height": 104
+      },
+      "panel_pixel_ratio": 0.9930652680652681,
+      "aspect_ratio": 1.5865384615384615,
+      "refined_area": 16814.0
+    },
+    {
+      "id": "P094",
+      "grid_position": "R11-C18",
+      "row": 11,
+      "column": 18,
+      "position": {
+        "x": 4547,
+        "y": 2634,
+        "width": 266,
+        "height": 104
+      },
+      "panel_pixel_ratio": 0.9808053788316946,
+      "aspect_ratio": 2.5576923076923075,
+      "refined_area": 27210.0
+    },
+    {
+      "id": "P095",
+      "grid_position": "R11-C19",
+      "row": 11,
+      "column": 19,
+      "position": {
+        "x": 4813,
+        "y": 2634,
+        "width": 55,
+        "height": 104
+      },
+      "panel_pixel_ratio": 0.9938811188811189,
+      "aspect_ratio": 0.5288461538461539,
+      "refined_area": 5523.0
+    },
+    {
+      "id": "P096",
+      "grid_position": "R12-C5",
+      "row": 12,
+      "column": 5,
+      "position": {
+        "x": 2306,
+        "y": 2779,
+        "width": 84,
+        "height": 84
+      },
+      "panel_pixel_ratio": 0.46914285714285714,
+      "aspect_ratio": 0.672,
+      "refined_area": 4200.0
+    },
+    {
+      "id": "P097",
+      "grid_position": "R12-C7",
+      "row": 12,
+      "column": 7,
+      "position": {
+        "x": 2433,
+        "y": 2755,
+        "width": 143,
+        "height": 108
+      },
+      "panel_pixel_ratio": 0.7206153846153847,
+      "aspect_ratio": 1.144,
+      "refined_area": 11318.5
+    },
+    {
+      "id": "P098",
+      "grid_position": "R12-C8",
+      "row": 12,
+      "column": 8,
+      "position": {
+        "x": 2576,
+        "y": 2758,
+        "width": 126,
+        "height": 105
+      },
+      "panel_pixel_ratio": 0.8062857142857143,
+      "aspect_ratio": 1.008,
+      "refined_area": 11684.5
+    },
+    {
+      "id": "P099",
+      "grid_position": "R12-C10",
+      "row": 12,
+      "column": 10,
+      "position": {
+        "x": 2744,
+        "y": 2760,
+        "width": 198,
+        "height": 103
+      },
+      "panel_pixel_ratio": 0.8382626262626263,
+      "aspect_ratio": 1.584,
+      "refined_area": 18329.5
+    },
+    {
+      "id": "P100",
+      "grid_position": "R12-C11",
+      "row": 12,
+      "column": 11,
+      "position": {
+        "x": 2942,
+        "y": 2776,
+        "width": 84,
+        "height": 87
+      },
+      "panel_pixel_ratio": 0.7896190476190477,
+      "aspect_ratio": 0.672,
+      "refined_area": 6544.5
+    },
+    {
+      "id": "P101",
+      "grid_position": "R12-C12",
+      "row": 12,
+      "column": 12,
+      "position": {
+        "x": 3026,
+        "y": 2766,
+        "width": 65,
+        "height": 97
+      },
+      "panel_pixel_ratio": 0.8626461538461538,
+      "aspect_ratio": 0.52,
+      "refined_area": 5639.0
+    },
+    {
+      "id": "P102",
+      "grid_position": "R12-C13",
+      "row": 12,
+      "column": 13,
+      "position": {
+        "x": 3091,
+        "y": 2767,
+        "width": 177,
+        "height": 96
+      },
+      "panel_pixel_ratio": 0.6414463276836159,
+      "aspect_ratio": 1.416,
+      "refined_area": 10007.5
+    },
+    {
+      "id": "P103",
+      "grid_position": "R12-C14",
+      "row": 12,
+      "column": 14,
+      "position": {
+        "x": 3268,
+        "y": 2738,
+        "width": 237,
+        "height": 125
+      },
+      "panel_pixel_ratio": 0.881789029535865,
+      "aspect_ratio": 1.896,
+      "refined_area": 24295.0
+    },
+    {
+      "id": "P104",
+      "grid_position": "R12-C15",
+      "row": 12,
+      "column": 15,
+      "position": {
+        "x": 3505,
+        "y": 2738,
+        "width": 165,
+        "height": 125
+      },
+      "panel_pixel_ratio": 0.994230303030303,
+      "aspect_ratio": 1.32,
+      "refined_area": 20336.0
+    },
+    {
+      "id": "P105",
+      "grid_position": "R12-C17",
+      "row": 12,
+      "column": 17,
+      "position": {
+        "x": 4181,
+        "y": 2738,
+        "width": 366,
+        "height": 125
+      },
+      "panel_pixel_ratio": 0.984896174863388,
+      "aspect_ratio": 2.928,
+      "refined_area": 45260.0
+    },
+    {
+      "id": "P106",
+      "grid_position": "R12-C18",
+      "row": 12,
+      "column": 18,
+      "position": {
+        "x": 4547,
+        "y": 2738,
+        "width": 266,
+        "height": 125
+      },
+      "panel_pixel_ratio": 0.9907368421052631,
+      "aspect_ratio": 2.128,
+      "refined_area": 32845.0
+    },
+    {
+      "id": "P107",
+      "grid_position": "R12-C19",
+      "row": 12,
+      "column": 19,
+      "position": {
+        "x": 4813,
+        "y": 2738,
+        "width": 55,
+        "height": 125
+      },
+      "panel_pixel_ratio": 0.9579636363636364,
+      "aspect_ratio": 0.44,
+      "refined_area": 6696.0
+    },
+    {
+      "id": "P108",
+      "grid_position": "R13-C1",
+      "row": 13,
+      "column": 1,
+      "position": {
+        "x": 0,
+        "y": 3101,
+        "width": 146,
+        "height": 170
+      },
+      "panel_pixel_ratio": 0.18363303870771105,
+      "aspect_ratio": 0.4730392156862745,
+      "refined_area": 13652.5
+    },
+    {
+      "id": "P109",
+      "grid_position": "R13-C2",
+      "row": 13,
+      "column": 2,
+      "position": {
+        "x": 193,
+        "y": 2863,
+        "width": 559,
+        "height": 408
+      },
+      "panel_pixel_ratio": 0.32879967729488935,
+      "aspect_ratio": 1.3700980392156863
+    },
+    {
+      "id": "P110",
+      "grid_position": "R13-C7",
+      "row": 13,
+      "column": 7,
+      "position": {
+        "x": 2433,
+        "y": 2863,
+        "width": 143,
+        "height": 408
+      },
+      "panel_pixel_ratio": 0.839126559714795,
+      "aspect_ratio": 0.35049019607843135,
+      "refined_area": 48434.5
+    },
+    {
+      "id": "P111",
+      "grid_position": "R13-C8",
+      "row": 13,
+      "column": 8,
+      "position": {
+        "x": 2576,
+        "y": 2863,
+        "width": 126,
+        "height": 408
+      },
+      "panel_pixel_ratio": 0.9574968876439465,
+      "aspect_ratio": 0.3088235294117647,
+      "refined_area": 49566.0
+    },
+    {
+      "id": "P112",
+      "grid_position": "R13-C10",
+      "row": 13,
+      "column": 10,
+      "position": {
+        "x": 2744,
+        "y": 2863,
+        "width": 198,
+        "height": 408
+      },
+      "panel_pixel_ratio": 0.785873440285205,
+      "aspect_ratio": 0.4852941176470588,
+      "refined_area": 66862.5
+    },
+    {
+      "id": "P113",
+      "grid_position": "R13-C13",
+      "row": 13,
+      "column": 13,
+      "position": {
+        "x": 3091,
+        "y": 2863,
+        "width": 177,
+        "height": 408
+      },
+      "panel_pixel_ratio": 0.6512545696244599,
+      "aspect_ratio": 0.4338235294117647,
+      "refined_area": 48223.5
+    },
+    {
+      "id": "P114",
+      "grid_position": "R13-C16",
+      "row": 13,
+      "column": 16,
+      "position": {
+        "x": 3716,
+        "y": 2863,
+        "width": 465,
+        "height": 408
+      },
+      "panel_pixel_ratio": 0.8130923602317639,
+      "aspect_ratio": 1.2524509803921569,
+      "refined_area": 170108.5
+    },
+    {
+      "id": "P115",
+      "grid_position": "R13-C17",
+      "row": 13,
+      "column": 17,
+      "position": {
+        "x": 4181,
+        "y": 2863,
+        "width": 366,
+        "height": 408
+      },
+      "panel_pixel_ratio": 0.9586346833815493,
+      "aspect_ratio": 0.8970588235294118,
+      "refined_area": 146247.0
+    },
+    {
+      "id": "P116",
+      "grid_position": "R13-C18",
+      "row": 13,
+      "column": 18,
+      "position": {
+        "x": 4547,
+        "y": 2863,
+        "width": 266,
+        "height": 408
+      },
+      "panel_pixel_ratio": 0.9626916556096122,
+      "aspect_ratio": 0.6519607843137255,
+      "refined_area": 105919.0
+    },
+    {
+      "id": "P117",
+      "grid_position": "R13-C20",
+      "row": 13,
+      "column": 20,
+      "position": {
+        "x": 4868,
+        "y": 2863,
+        "width": 716,
+        "height": 408
+      },
+      "panel_pixel_ratio": 0.7792474531712126,
+      "aspect_ratio": 1.7549019607843137,
+      "refined_area": 212548.5
+    },
+    {
+      "id": "P118",
+      "grid_position": "R14-C2",
+      "row": 14,
+      "column": 2,
+      "position": {
+        "x": 193,
+        "y": 3758,
+        "width": 559,
+        "height": 955
+      },
+      "panel_pixel_ratio": 0.6814166867226249,
+      "aspect_ratio": 0.38765603328710124,
+      "refined_area": 516395.5
+    },
+    {
+      "id": "P119",
+      "grid_position": "R14-C4",
+      "row": 14,
+      "column": 4,
+      "position": {
+        "x": 1438,
+        "y": 3601,
+        "width": 868,
+        "height": 1112
+      },
+      "panel_pixel_ratio": 0.5953022796568209,
+      "aspect_ratio": 0.9965325936199723,
+      "refined_area": 627648.0
+    },
+    {
+      "id": "P120",
+      "grid_position": "R14-C16",
+      "row": 14,
+      "column": 16,
+      "position": {
+        "x": 3670,
+        "y": 3424,
+        "width": 511,
+        "height": 425
+      },
+      "panel_pixel_ratio": 0.2854469357898765,
+      "aspect_ratio": 0.35436893203883496,
+      "refined_area": 148382.5
+    },
+    {
+      "id": "P121",
+      "grid_position": "R14-C20",
+      "row": 14,
+      "column": 20,
+      "position": {
+        "x": 4868,
+        "y": 3271,
+        "width": 515,
+        "height": 469
+      },
+      "panel_pixel_ratio": 0.36557698417003076,
+      "aspect_ratio": 0.49653259361997226,
+      "refined_area": 151178.0
+    },
+    {
+      "id": "P122",
+      "grid_position": "R14-C21",
+      "row": 14,
+      "column": 21,
+      "position": {
+        "x": 6164,
+        "y": 3271,
+        "width": 1432,
+        "height": 1162
+      },
+      "panel_pixel_ratio": 0.3171009898260697,
+      "aspect_ratio": 1.674757281553398,
+      "refined_area": 803151.5
+    },
+    {
+      "id": "P123",
+      "grid_position": "R15-C2",
+      "row": 15,
+      "column": 2,
+      "position": {
+        "x": 193,
+        "y": 4713,
+        "width": 559,
+        "height": 1286
+      },
+      "panel_pixel_ratio": 0.7969421623260822,
+      "aspect_ratio": 0.43468118195956457,
+      "refined_area": 651672.5
+    },
+    {
+      "id": "P124",
+      "grid_position": "R15-C4",
+      "row": 15,
+      "column": 4,
+      "position": {
+        "x": 869,
+        "y": 4713,
+        "width": 670,
+        "height": 1286
+      },
+      "panel_pixel_ratio": 0.7213046447422107,
+      "aspect_ratio": 1.1174183514774494,
+      "refined_area": 621284.5
+    },
+    {
+      "id": "P125",
+      "grid_position": "R15-C21",
+      "row": 15,
+      "column": 21,
+      "position": {
+        "x": 6886,
+        "y": 5092,
+        "width": 1113,
+        "height": 907
+      },
+      "panel_pixel_ratio": 0.39334672810228966,
+      "aspect_ratio": 1.8779160186625194,
+      "refined_area": 822838.5
+    }
+  ]
+}
