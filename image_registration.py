@@ -656,16 +656,278 @@ class ImageRegistration:
         
         return refined_panels
     
+    def segment_panels_on_rgb(self) -> List[Dict[str, Any]]:
+        """
+        在RGB图像上进行精确的光伏板分割
+        
+        Returns:
+            RGB图像中的面板信息列表
+        """
+        # 基于颜色特征提取光伏板区域
+        print("在RGB图像上提取光伏板区域...")
+        color_mask = self.extract_pv_panels_by_color()
+        
+        # 检测网格线
+        print("在RGB图像上检测网格线...")
+        horizontal_lines, vertical_lines = self.detect_grid_lines(self.rgb_image)
+        
+        # 如果网格线检测不足，尝试基于颜色掩码的轮廓检测
+        if len(horizontal_lines) < 5 or len(vertical_lines) < 10:
+            print(f"检测到网格线不足 (H:{len(horizontal_lines)}, V:{len(vertical_lines)})，使用轮廓检测...")
+            return self._segment_rgb_by_contours(color_mask)
+        
+        # 使用网格线进行分割
+        print(f"使用网格线分割: {len(horizontal_lines)} 行线, {len(vertical_lines)} 列线")
+        return self._segment_rgb_by_grid_lines(color_mask, horizontal_lines, vertical_lines)
+    
+    def _segment_rgb_by_grid_lines(self, color_mask: np.ndarray, 
+                                  horizontal_lines: List[int], vertical_lines: List[int]) -> List[Dict[str, Any]]:
+        """
+        基于网格线在RGB图像上分割光伏板
+        
+        Args:
+            color_mask: 颜色掩码
+            horizontal_lines: 水平网格线位置
+            vertical_lines: 垂直网格线位置
+            
+        Returns:
+            RGB图像中的面板信息列表
+        """
+        panels = []
+        h, w = color_mask.shape
+        
+        # 添加边界线
+        if 0 not in horizontal_lines:
+            horizontal_lines.insert(0, 0)
+        if h-1 not in horizontal_lines:
+            horizontal_lines.append(h-1)
+        if 0 not in vertical_lines:
+            vertical_lines.insert(0, 0)
+        if w-1 not in vertical_lines:
+            vertical_lines.append(w-1)
+        
+        horizontal_lines.sort()
+        vertical_lines.sort()
+        
+        print(f"RGB分割网格: {len(horizontal_lines)-1} 行 x {len(vertical_lines)-1} 列")
+        
+        # 根据网格线创建面板
+        for r in range(len(horizontal_lines) - 1):
+            for c in range(len(vertical_lines) - 1):
+                y1, y2 = horizontal_lines[r], horizontal_lines[r + 1]
+                x1, x2 = vertical_lines[c], vertical_lines[c + 1]
+                
+                # 检查这个区域是否包含足够的光伏板像素
+                roi_mask = color_mask[y1:y2, x1:x2]
+                if roi_mask.size == 0:
+                    continue
+                    
+                panel_pixel_ratio = np.sum(roi_mask > 0) / roi_mask.size
+                
+                # 只有当区域包含足够多的光伏板像素时才认为是有效面板
+                if panel_pixel_ratio > 0.2:  # 降低阈值到20%
+                    # 提取RGB ROI用于调试
+                    rgb_roi = self.rgb_image[y1:y2, x1:x2]
+                    
+                    panel = {
+                        "id": f"R{r+1}-C{c+1}",
+                        "row": r + 1,
+                        "column": c + 1,
+                        "rgb_position": {
+                            "x": x1,
+                            "y": y1,
+                            "width": x2 - x1,
+                            "height": y2 - y1
+                        },
+                        "rgb_roi": rgb_roi,
+                        "panel_pixel_ratio": panel_pixel_ratio
+                    }
+                    
+                    panels.append(panel)
+        
+        # 保存RGB分割调试信息
+        if self.debug_dir:
+            debug_img = self.rgb_image.copy()
+            for panel in panels:
+                pos = panel["rgb_position"]
+                cv2.rectangle(debug_img, (pos["x"], pos["y"]), 
+                             (pos["x"] + pos["width"], pos["y"] + pos["height"]), 
+                             (0, 255, 0), 2)
+                cv2.putText(debug_img, panel["id"], 
+                           (pos["x"] + 5, pos["y"] + 20), 
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2)
+                # 显示面板像素比例
+                cv2.putText(debug_img, f"{panel['panel_pixel_ratio']:.2f}", 
+                           (pos["x"] + 5, pos["y"] + 40), 
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.4, (255, 255, 0), 1)
+            cv2.imwrite(os.path.join(self.debug_dir, "rgb_segmentation.jpg"), debug_img)
+        
+        return panels
+    
+    def _segment_rgb_by_contours(self, color_mask: np.ndarray) -> List[Dict[str, Any]]:
+        """
+        基于轮廓在RGB图像上分割光伏板
+        
+        Args:
+            color_mask: 颜色掩码
+            
+        Returns:
+            RGB图像中的面板信息列表
+        """
+        # 查找轮廓
+        contours, _ = cv2.findContours(color_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        
+        panels = []
+        valid_contours = []
+        
+        # 过滤轮廓
+        for contour in contours:
+            area = cv2.contourArea(contour)
+            
+            # 根据RGB图像的高分辨率调整面积阈值
+            min_area = 5000   # 最小面积
+            max_area = 200000 # 最大面积
+            
+            if min_area < area < max_area:
+                x, y, w, h = cv2.boundingRect(contour)
+                aspect_ratio = w / h if h > 0 else 0
+                
+                # 检查长宽比是否合理
+                if 0.5 < aspect_ratio < 2.5:
+                    valid_contours.append((contour, x, y, w, h, area))
+        
+        # 按面积排序，保留最大的轮廓
+        valid_contours.sort(key=lambda x: x[5], reverse=True)
+        
+        # 限制轮廓数量，避免过多小轮廓
+        max_panels = 200  # 最大面板数
+        valid_contours = valid_contours[:max_panels]
+        
+        # 按位置排序
+        valid_contours.sort(key=lambda x: (x[2], x[1]))  # 按y坐标，然后x坐标排序
+        
+        # 创建面板信息
+        for i, (contour, x, y, w, h, area) in enumerate(valid_contours):
+            # 估算行列号
+            row = i // 20 + 1  # 假设每行最多20个面板
+            col = i % 20 + 1
+            
+            # 提取RGB ROI
+            rgb_roi = self.rgb_image[y:y+h, x:x+w]
+            
+            panel = {
+                "id": f"P{i+1}",
+                "row": row,
+                "column": col,
+                "rgb_position": {
+                    "x": x,
+                    "y": y,
+                    "width": w,
+                    "height": h
+                },
+                "rgb_roi": rgb_roi,
+                "area": area
+            }
+            
+            panels.append(panel)
+        
+        # 保存调试信息
+        if self.debug_dir:
+            debug_img = self.rgb_image.copy()
+            for panel in panels:
+                pos = panel["rgb_position"]
+                cv2.rectangle(debug_img, (pos["x"], pos["y"]), 
+                             (pos["x"] + pos["width"], pos["y"] + pos["height"]), 
+                             (255, 0, 0), 2)
+                cv2.putText(debug_img, panel["id"], 
+                           (pos["x"] + 5, pos["y"] + 20), 
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
+            cv2.imwrite(os.path.join(self.debug_dir, "rgb_contour_segmentation.jpg"), debug_img)
+        
+        return panels
+    
+    def map_rgb_panels_to_thermal(self, rgb_panels: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """
+        将RGB图像中分割的面板映射到热成像图像
+        
+        Args:
+            rgb_panels: RGB图像中的面板列表
+            
+        Returns:
+            映射到热成像的面板列表
+        """
+        thermal_panels = []
+        
+        for panel in rgb_panels:
+            rgb_pos = panel["rgb_position"]
+            
+            # 映射到热成像坐标系
+            thermal_coords = self._map_to_thermal_coords(
+                rgb_pos["x"], rgb_pos["y"], 
+                rgb_pos["width"], rgb_pos["height"]
+            )
+            
+            if thermal_coords is not None:
+                tx, ty, tw, th = thermal_coords
+                
+                # 确保坐标在热成像图像范围内
+                tx = max(0, min(tx, self.thermal_image.shape[1] - 1))
+                ty = max(0, min(ty, self.thermal_image.shape[0] - 1))
+                tw = min(tw, self.thermal_image.shape[1] - tx)
+                th = min(th, self.thermal_image.shape[0] - ty)
+                
+                if tw > 3 and th > 3:  # 确保ROI足够大
+                    # 提取热成像ROI
+                    thermal_roi = self.thermal_image[ty:ty+th, tx:tx+tw]
+                    
+                    # 创建新的面板信息
+                    thermal_panel = {
+                        "id": panel["id"],
+                        "row": panel["row"],
+                        "column": panel["column"],
+                        "roi": thermal_roi,
+                        "position": {
+                            "x": tx,
+                            "y": ty,
+                            "width": tw,
+                            "height": th
+                        },
+                        "rgb_position": panel["rgb_position"]
+                    }
+                    
+                    # 保留其他属性
+                    if "panel_pixel_ratio" in panel:
+                        thermal_panel["panel_pixel_ratio"] = panel["panel_pixel_ratio"]
+                    if "area" in panel:
+                        thermal_panel["area"] = panel["area"]
+                    
+                    thermal_panels.append(thermal_panel)
+        
+        # 保存映射调试信息
+        if self.debug_dir:
+            debug_img = self.thermal_image.copy()
+            for panel in thermal_panels:
+                pos = panel["position"]
+                cv2.rectangle(debug_img, (pos["x"], pos["y"]), 
+                             (pos["x"] + pos["width"], pos["y"] + pos["height"]), 
+                             (0, 255, 0), 1)
+                cv2.putText(debug_img, panel["id"], 
+                           (pos["x"] + 2, pos["y"] + 12), 
+                           cv2.FONT_HERSHEY_SIMPLEX, 0.3, (0, 0, 255), 1)
+            cv2.imwrite(os.path.join(self.debug_dir, "thermal_mapped_panels.jpg"), debug_img)
+        
+        return thermal_panels
+    
     def process_dual_images(self, rgb_path: str, thermal_path: str, 
                            rows: int = None, cols: int = None) -> List[Dict[str, Any]]:
         """
-        处理双图像：从RGB图像提取边缘，映射到热成像图像，并分割面板
+        处理双图像：先在RGB上精确分割，再映射到热成像
         
         Args:
             rgb_path: RGB图像路径
             thermal_path: 热成像图像路径
-            rows: 指定的行数
-            cols: 指定的列数
+            rows: 指定的行数（暂时不使用）
+            cols: 指定的列数（暂时不使用）
             
         Returns:
             面板信息列表
@@ -677,26 +939,152 @@ class ImageRegistration:
         print("正在进行图像配准...")
         self.register_images()
         
-        # 从RGB图像提取边缘
-        print("从RGB图像提取边缘...")
-        rgb_edges = self.extract_rgb_edges()
+        # 在RGB图像上进行精确分割
+        print("在RGB图像上进行精确分割...")
+        rgb_panels = self.segment_panels_on_rgb()
         
-        # 将边缘映射到热成像坐标系
-        print("将边缘映射到热成像坐标系...")
-        mapped_edges = self.map_edges_to_thermal(rgb_edges)
+        # 将RGB分割结果映射到热成像
+        print("将分割结果映射到热成像...")
+        thermal_panels = self.map_rgb_panels_to_thermal(rgb_panels)
         
-        # 检测阵列主要区域
-        print("检测光伏阵列区域...")
-        array_region = self.detect_array_region(mapped_edges)
+        print(f"RGB图像检测到 {len(rgb_panels)} 个面板")
+        print(f"成功映射到热成像 {len(thermal_panels)} 个面板")
         
-        # 创建固定网格
-        print("创建固定网格分割...")
-        panels = self.create_fixed_grid(array_region, rows, cols)
+        return thermal_panels
+    
+    def extract_pv_panels_by_color(self) -> np.ndarray:
+        """
+        基于颜色特征提取光伏板区域
         
-        # 使用边缘信息优化网格
-        print("使用边缘信息优化网格...")
-        refined_panels = self.refine_grid_with_edges(panels, mapped_edges)
+        Returns:
+            光伏板掩码图像
+        """
+        # 转换到HSV色彩空间，更适合颜色分割
+        hsv = cv2.cvtColor(self.rgb_image, cv2.COLOR_BGR2HSV)
         
-        print(f"最终检测到 {len(refined_panels)} 个光伏板")
+        # 定义光伏板的颜色范围（深蓝色到黑色）
+        # 光伏板通常呈现深蓝色
+        lower_blue = np.array([100, 50, 20])   # 深蓝色下限
+        upper_blue = np.array([130, 255, 120]) # 深蓝色上限
         
-        return refined_panels 
+        # 黑色范围（一些光伏板可能接近黑色）
+        lower_black = np.array([0, 0, 0])
+        upper_black = np.array([180, 255, 50])
+        
+        # 创建颜色掩码
+        mask_blue = cv2.inRange(hsv, lower_blue, upper_blue)
+        mask_black = cv2.inRange(hsv, lower_black, upper_black)
+        
+        # 合并掩码
+        color_mask = cv2.bitwise_or(mask_blue, mask_black)
+        
+        # 形态学操作去除噪声
+        kernel = np.ones((5, 5), np.uint8)
+        color_mask = cv2.morphologyEx(color_mask, cv2.MORPH_CLOSE, kernel)
+        color_mask = cv2.morphologyEx(color_mask, cv2.MORPH_OPEN, kernel)
+        
+        # 保存调试信息
+        if self.debug_dir:
+            cv2.imwrite(os.path.join(self.debug_dir, "color_mask_blue.jpg"), mask_blue)
+            cv2.imwrite(os.path.join(self.debug_dir, "color_mask_black.jpg"), mask_black)
+            cv2.imwrite(os.path.join(self.debug_dir, "color_mask_combined.jpg"), color_mask)
+        
+        return color_mask
+    
+    def detect_grid_lines(self, image: np.ndarray) -> Tuple[List[int], List[int]]:
+        """
+        检测光伏板阵列的网格线
+        
+        Args:
+            image: 输入图像
+            
+        Returns:
+            Tuple[水平线位置列表, 垂直线位置列表]
+        """
+        # 转换为灰度图
+        if len(image.shape) == 3:
+            gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+        else:
+            gray = image
+        
+        # 增强对比度
+        clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
+        enhanced = clahe.apply(gray)
+        
+        # 边缘检测
+        edges = cv2.Canny(enhanced, 50, 150)
+        
+        # 使用霍夫变换检测直线
+        lines = cv2.HoughLinesP(edges, 1, np.pi/180, threshold=100, 
+                               minLineLength=200, maxLineGap=20)
+        
+        horizontal_lines = []
+        vertical_lines = []
+        
+        if lines is not None:
+            for line in lines:
+                x1, y1, x2, y2 = line[0]
+                
+                # 计算线的角度
+                angle = np.arctan2(y2 - y1, x2 - x1) * 180 / np.pi
+                
+                # 分类水平线和垂直线
+                if abs(angle) < 15 or abs(angle) > 165:  # 水平线
+                    y_pos = (y1 + y2) // 2
+                    horizontal_lines.append(y_pos)
+                elif abs(abs(angle) - 90) < 15:  # 垂直线
+                    x_pos = (x1 + x2) // 2
+                    vertical_lines.append(x_pos)
+        
+        # 聚类相似的线
+        horizontal_lines = self._cluster_coordinates(horizontal_lines, tolerance=20)
+        vertical_lines = self._cluster_coordinates(vertical_lines, tolerance=20)
+        
+        # 保存调试信息
+        if self.debug_dir:
+            debug_img = self.rgb_image.copy()
+            for y in horizontal_lines:
+                cv2.line(debug_img, (0, y), (debug_img.shape[1], y), (0, 255, 0), 2)
+            for x in vertical_lines:
+                cv2.line(debug_img, (x, 0), (x, debug_img.shape[0]), (255, 0, 0), 2)
+            cv2.imwrite(os.path.join(self.debug_dir, "detected_grid_lines.jpg"), debug_img)
+        
+        return horizontal_lines, vertical_lines
+    
+    def _map_to_thermal_coords(self, x: int, y: int, w: int, h: int) -> Tuple[int, int, int, int]:
+        """
+        将RGB坐标映射到热成像坐标系
+        
+        Args:
+            x, y, w, h: RGB图像中的坐标和尺寸
+            
+        Returns:
+            热成像坐标系中的坐标和尺寸
+        """
+        if self.registration_matrix is None:
+            return None
+        
+        # 定义RGB图像中的四个角点
+        rgb_points = np.array([
+            [x, y],
+            [x + w, y],
+            [x + w, y + h],
+            [x, y + h]
+        ], dtype=np.float32)
+        
+        # 映射到热成像坐标系
+        thermal_points = []
+        for point in rgb_points:
+            px, py, pw = np.dot(self.registration_matrix, [point[0], point[1], 1])
+            thermal_points.append([int(px / pw), int(py / pw)])
+        
+        # 计算边界框
+        x_coords = [p[0] for p in thermal_points]
+        y_coords = [p[1] for p in thermal_points]
+        
+        tx = min(x_coords)
+        ty = min(y_coords)
+        tw = max(x_coords) - tx
+        th = max(y_coords) - ty
+        
+        return tx, ty, tw, th 
