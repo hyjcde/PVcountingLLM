@@ -1,0 +1,4644 @@
+{
+  "method": "smart_pv_detection",
+  "total_panels": 348,
+  "detection_time": "2025-06-16T19:45:00.510800",
+  "image_size": {
+    "width": 8000,
+    "height": 6000
+  },
+  "panels": [
+    {
+      "id": "PV001",
+      "grid_position": "R1-C1",
+      "position": {
+        "x": 27,
+        "y": 62,
+        "width": 68,
+        "height": 122
+      },
+      "area": 8296,
+      "aspect_ratio": 0.5573770491803278,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV002",
+      "grid_position": "R1-C2",
+      "position": {
+        "x": 95,
+        "y": 62,
+        "width": 114,
+        "height": 122
+      },
+      "area": 13908,
+      "aspect_ratio": 0.9344262295081968,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV003",
+      "grid_position": "R1-C3",
+      "position": {
+        "x": 209,
+        "y": 62,
+        "width": 172,
+        "height": 122
+      },
+      "area": 20984,
+      "aspect_ratio": 1.4098360655737705,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV004",
+      "grid_position": "R1-C5",
+      "position": {
+        "x": 660,
+        "y": 62,
+        "width": 202,
+        "height": 122
+      },
+      "area": 24644,
+      "aspect_ratio": 1.6557377049180328,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV005",
+      "grid_position": "R1-C6",
+      "position": {
+        "x": 862,
+        "y": 62,
+        "width": 67,
+        "height": 122
+      },
+      "area": 8174,
+      "aspect_ratio": 0.5491803278688525,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV006",
+      "grid_position": "R1-C8",
+      "position": {
+        "x": 962,
+        "y": 62,
+        "width": 210,
+        "height": 122
+      },
+      "area": 25620,
+      "aspect_ratio": 1.721311475409836,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV007",
+      "grid_position": "R1-C9",
+      "position": {
+        "x": 1172,
+        "y": 62,
+        "width": 166,
+        "height": 122
+      },
+      "area": 20252,
+      "aspect_ratio": 1.360655737704918,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV008",
+      "grid_position": "R1-C10",
+      "position": {
+        "x": 1338,
+        "y": 62,
+        "width": 139,
+        "height": 122
+      },
+      "area": 16958,
+      "aspect_ratio": 1.139344262295082,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV009",
+      "grid_position": "R1-C12",
+      "position": {
+        "x": 1786,
+        "y": 62,
+        "width": 215,
+        "height": 122
+      },
+      "area": 26230,
+      "aspect_ratio": 1.7622950819672132,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV010",
+      "grid_position": "R1-C14",
+      "position": {
+        "x": 2059,
+        "y": 62,
+        "width": 137,
+        "height": 122
+      },
+      "area": 16714,
+      "aspect_ratio": 1.1229508196721312,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV011",
+      "grid_position": "R1-C17",
+      "position": {
+        "x": 3023,
+        "y": 62,
+        "width": 124,
+        "height": 122
+      },
+      "area": 15128,
+      "aspect_ratio": 1.0163934426229508,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV012",
+      "grid_position": "R1-C18",
+      "position": {
+        "x": 3147,
+        "y": 62,
+        "width": 73,
+        "height": 122
+      },
+      "area": 8906,
+      "aspect_ratio": 0.5983606557377049,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV013",
+      "grid_position": "R1-C19",
+      "position": {
+        "x": 3220,
+        "y": 62,
+        "width": 78,
+        "height": 122
+      },
+      "area": 9516,
+      "aspect_ratio": 0.639344262295082,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV014",
+      "grid_position": "R1-C21",
+      "position": {
+        "x": 3356,
+        "y": 62,
+        "width": 67,
+        "height": 122
+      },
+      "area": 8174,
+      "aspect_ratio": 0.5491803278688525,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV015",
+      "grid_position": "R1-C22",
+      "position": {
+        "x": 3423,
+        "y": 62,
+        "width": 112,
+        "height": 122
+      },
+      "area": 13664,
+      "aspect_ratio": 0.9180327868852459,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV016",
+      "grid_position": "R1-C25",
+      "position": {
+        "x": 3626,
+        "y": 62,
+        "width": 127,
+        "height": 122
+      },
+      "area": 15494,
+      "aspect_ratio": 1.040983606557377,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV017",
+      "grid_position": "R1-C28",
+      "position": {
+        "x": 4371,
+        "y": 62,
+        "width": 101,
+        "height": 122
+      },
+      "area": 12322,
+      "aspect_ratio": 0.8278688524590164,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV018",
+      "grid_position": "R1-C29",
+      "position": {
+        "x": 4472,
+        "y": 62,
+        "width": 68,
+        "height": 122
+      },
+      "area": 8296,
+      "aspect_ratio": 0.5573770491803278,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV019",
+      "grid_position": "R1-C30",
+      "position": {
+        "x": 4540,
+        "y": 62,
+        "width": 81,
+        "height": 122
+      },
+      "area": 9882,
+      "aspect_ratio": 0.6639344262295082,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV020",
+      "grid_position": "R1-C31",
+      "position": {
+        "x": 4621,
+        "y": 62,
+        "width": 92,
+        "height": 122
+      },
+      "area": 11224,
+      "aspect_ratio": 0.7540983606557377,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV021",
+      "grid_position": "R1-C32",
+      "position": {
+        "x": 4713,
+        "y": 62,
+        "width": 89,
+        "height": 122
+      },
+      "area": 10858,
+      "aspect_ratio": 0.7295081967213115,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV022",
+      "grid_position": "R1-C33",
+      "position": {
+        "x": 4802,
+        "y": 62,
+        "width": 69,
+        "height": 122
+      },
+      "area": 8418,
+      "aspect_ratio": 0.5655737704918032,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV023",
+      "grid_position": "R1-C34",
+      "position": {
+        "x": 4871,
+        "y": 62,
+        "width": 82,
+        "height": 122
+      },
+      "area": 10004,
+      "aspect_ratio": 0.6721311475409836,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV024",
+      "grid_position": "R1-C35",
+      "position": {
+        "x": 4953,
+        "y": 62,
+        "width": 107,
+        "height": 122
+      },
+      "area": 13054,
+      "aspect_ratio": 0.8770491803278688,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV025",
+      "grid_position": "R2-C1",
+      "position": {
+        "x": 27,
+        "y": 184,
+        "width": 68,
+        "height": 70
+      },
+      "area": 4760,
+      "aspect_ratio": 0.9714285714285714,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV026",
+      "grid_position": "R2-C2",
+      "position": {
+        "x": 95,
+        "y": 184,
+        "width": 114,
+        "height": 70
+      },
+      "area": 7980,
+      "aspect_ratio": 1.6285714285714286,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV027",
+      "grid_position": "R2-C6",
+      "position": {
+        "x": 862,
+        "y": 184,
+        "width": 67,
+        "height": 70
+      },
+      "area": 4690,
+      "aspect_ratio": 0.9571428571428572,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV028",
+      "grid_position": "R2-C10",
+      "position": {
+        "x": 1338,
+        "y": 184,
+        "width": 139,
+        "height": 70
+      },
+      "area": 9730,
+      "aspect_ratio": 1.9857142857142858,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV029",
+      "grid_position": "R2-C13",
+      "position": {
+        "x": 2001,
+        "y": 184,
+        "width": 58,
+        "height": 70
+      },
+      "area": 4060,
+      "aspect_ratio": 0.8285714285714286,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV030",
+      "grid_position": "R2-C14",
+      "position": {
+        "x": 2059,
+        "y": 184,
+        "width": 137,
+        "height": 70
+      },
+      "area": 9590,
+      "aspect_ratio": 1.957142857142857,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV031",
+      "grid_position": "R2-C17",
+      "position": {
+        "x": 3023,
+        "y": 184,
+        "width": 124,
+        "height": 70
+      },
+      "area": 8680,
+      "aspect_ratio": 1.7714285714285714,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV032",
+      "grid_position": "R2-C18",
+      "position": {
+        "x": 3147,
+        "y": 184,
+        "width": 73,
+        "height": 70
+      },
+      "area": 5110,
+      "aspect_ratio": 1.042857142857143,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV033",
+      "grid_position": "R2-C19",
+      "position": {
+        "x": 3220,
+        "y": 184,
+        "width": 78,
+        "height": 70
+      },
+      "area": 5460,
+      "aspect_ratio": 1.1142857142857143,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV034",
+      "grid_position": "R2-C20",
+      "position": {
+        "x": 3298,
+        "y": 184,
+        "width": 58,
+        "height": 70
+      },
+      "area": 4060,
+      "aspect_ratio": 0.8285714285714286,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV035",
+      "grid_position": "R2-C21",
+      "position": {
+        "x": 3356,
+        "y": 184,
+        "width": 67,
+        "height": 70
+      },
+      "area": 4690,
+      "aspect_ratio": 0.9571428571428572,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV036",
+      "grid_position": "R2-C22",
+      "position": {
+        "x": 3423,
+        "y": 184,
+        "width": 112,
+        "height": 70
+      },
+      "area": 7840,
+      "aspect_ratio": 1.6,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV037",
+      "grid_position": "R2-C23",
+      "position": {
+        "x": 3535,
+        "y": 184,
+        "width": 51,
+        "height": 70
+      },
+      "area": 3570,
+      "aspect_ratio": 0.7285714285714285,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV038",
+      "grid_position": "R2-C25",
+      "position": {
+        "x": 3626,
+        "y": 184,
+        "width": 127,
+        "height": 70
+      },
+      "area": 8890,
+      "aspect_ratio": 1.8142857142857143,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV039",
+      "grid_position": "R2-C28",
+      "position": {
+        "x": 4371,
+        "y": 184,
+        "width": 101,
+        "height": 70
+      },
+      "area": 7070,
+      "aspect_ratio": 1.4428571428571428,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV040",
+      "grid_position": "R2-C29",
+      "position": {
+        "x": 4472,
+        "y": 184,
+        "width": 68,
+        "height": 70
+      },
+      "area": 4760,
+      "aspect_ratio": 0.9714285714285714,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV041",
+      "grid_position": "R2-C30",
+      "position": {
+        "x": 4540,
+        "y": 184,
+        "width": 81,
+        "height": 70
+      },
+      "area": 5670,
+      "aspect_ratio": 1.1571428571428573,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV042",
+      "grid_position": "R2-C31",
+      "position": {
+        "x": 4621,
+        "y": 184,
+        "width": 92,
+        "height": 70
+      },
+      "area": 6440,
+      "aspect_ratio": 1.3142857142857143,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV043",
+      "grid_position": "R2-C32",
+      "position": {
+        "x": 4713,
+        "y": 184,
+        "width": 89,
+        "height": 70
+      },
+      "area": 6230,
+      "aspect_ratio": 1.2714285714285714,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV044",
+      "grid_position": "R2-C33",
+      "position": {
+        "x": 4802,
+        "y": 184,
+        "width": 69,
+        "height": 70
+      },
+      "area": 4830,
+      "aspect_ratio": 0.9857142857142858,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV045",
+      "grid_position": "R2-C34",
+      "position": {
+        "x": 4871,
+        "y": 184,
+        "width": 82,
+        "height": 70
+      },
+      "area": 5740,
+      "aspect_ratio": 1.1714285714285715,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV046",
+      "grid_position": "R2-C35",
+      "position": {
+        "x": 4953,
+        "y": 184,
+        "width": 107,
+        "height": 70
+      },
+      "area": 7490,
+      "aspect_ratio": 1.5285714285714285,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV047",
+      "position": {
+        "x": 4035,
+        "y": 676,
+        "width": 37,
+        "height": 43
+      },
+      "area": 1013.0,
+      "aspect_ratio": 0.8604651162790697,
+      "rectangularity": 0.6367064739157763,
+      "contour_area": 1013.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV048",
+      "grid_position": "R5-C2",
+      "position": {
+        "x": 95,
+        "y": 1128,
+        "width": 114,
+        "height": 144
+      },
+      "area": 16416,
+      "aspect_ratio": 0.7916666666666666,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV049",
+      "grid_position": "R5-C3",
+      "position": {
+        "x": 209,
+        "y": 1128,
+        "width": 172,
+        "height": 144
+      },
+      "area": 24768,
+      "aspect_ratio": 1.1944444444444444,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV050",
+      "grid_position": "R5-C4",
+      "position": {
+        "x": 381,
+        "y": 1128,
+        "width": 279,
+        "height": 144
+      },
+      "area": 40176,
+      "aspect_ratio": 1.9375,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV051",
+      "grid_position": "R5-C5",
+      "position": {
+        "x": 660,
+        "y": 1128,
+        "width": 202,
+        "height": 144
+      },
+      "area": 29088,
+      "aspect_ratio": 1.4027777777777777,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV052",
+      "grid_position": "R5-C8",
+      "position": {
+        "x": 962,
+        "y": 1128,
+        "width": 210,
+        "height": 144
+      },
+      "area": 30240,
+      "aspect_ratio": 1.4583333333333333,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV053",
+      "grid_position": "R5-C9",
+      "position": {
+        "x": 1172,
+        "y": 1128,
+        "width": 166,
+        "height": 144
+      },
+      "area": 23904,
+      "aspect_ratio": 1.1527777777777777,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV054",
+      "grid_position": "R5-C10",
+      "position": {
+        "x": 1338,
+        "y": 1128,
+        "width": 139,
+        "height": 144
+      },
+      "area": 20016,
+      "aspect_ratio": 0.9652777777777778,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV055",
+      "grid_position": "R5-C12",
+      "position": {
+        "x": 1786,
+        "y": 1128,
+        "width": 215,
+        "height": 144
+      },
+      "area": 30960,
+      "aspect_ratio": 1.4930555555555556,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV056",
+      "grid_position": "R5-C14",
+      "position": {
+        "x": 2059,
+        "y": 1128,
+        "width": 137,
+        "height": 144
+      },
+      "area": 19728,
+      "aspect_ratio": 0.9513888888888888,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV057",
+      "grid_position": "R5-C17",
+      "position": {
+        "x": 3023,
+        "y": 1128,
+        "width": 124,
+        "height": 144
+      },
+      "area": 17856,
+      "aspect_ratio": 0.8611111111111112,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV058",
+      "grid_position": "R5-C18",
+      "position": {
+        "x": 3147,
+        "y": 1128,
+        "width": 73,
+        "height": 144
+      },
+      "area": 10512,
+      "aspect_ratio": 0.5069444444444444,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV059",
+      "grid_position": "R5-C19",
+      "position": {
+        "x": 3220,
+        "y": 1128,
+        "width": 78,
+        "height": 144
+      },
+      "area": 11232,
+      "aspect_ratio": 0.5416666666666666,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV060",
+      "grid_position": "R5-C22",
+      "position": {
+        "x": 3423,
+        "y": 1128,
+        "width": 112,
+        "height": 144
+      },
+      "area": 16128,
+      "aspect_ratio": 0.7777777777777778,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV061",
+      "grid_position": "R5-C25",
+      "position": {
+        "x": 3626,
+        "y": 1128,
+        "width": 127,
+        "height": 144
+      },
+      "area": 18288,
+      "aspect_ratio": 0.8819444444444444,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV062",
+      "grid_position": "R5-C27",
+      "position": {
+        "x": 4093,
+        "y": 1128,
+        "width": 278,
+        "height": 144
+      },
+      "area": 40032,
+      "aspect_ratio": 1.9305555555555556,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV063",
+      "grid_position": "R5-C28",
+      "position": {
+        "x": 4371,
+        "y": 1128,
+        "width": 101,
+        "height": 144
+      },
+      "area": 14544,
+      "aspect_ratio": 0.7013888888888888,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV064",
+      "grid_position": "R5-C30",
+      "position": {
+        "x": 4540,
+        "y": 1128,
+        "width": 81,
+        "height": 144
+      },
+      "area": 11664,
+      "aspect_ratio": 0.5625,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV065",
+      "grid_position": "R5-C31",
+      "position": {
+        "x": 4621,
+        "y": 1128,
+        "width": 92,
+        "height": 144
+      },
+      "area": 13248,
+      "aspect_ratio": 0.6388888888888888,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV066",
+      "grid_position": "R5-C32",
+      "position": {
+        "x": 4713,
+        "y": 1128,
+        "width": 89,
+        "height": 144
+      },
+      "area": 12816,
+      "aspect_ratio": 0.6180555555555556,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV067",
+      "grid_position": "R5-C34",
+      "position": {
+        "x": 4871,
+        "y": 1128,
+        "width": 82,
+        "height": 144
+      },
+      "area": 11808,
+      "aspect_ratio": 0.5694444444444444,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV068",
+      "grid_position": "R5-C35",
+      "position": {
+        "x": 4953,
+        "y": 1128,
+        "width": 107,
+        "height": 144
+      },
+      "area": 15408,
+      "aspect_ratio": 0.7430555555555556,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV069",
+      "grid_position": "R5-C36",
+      "position": {
+        "x": 5060,
+        "y": 1128,
+        "width": 285,
+        "height": 144
+      },
+      "area": 41040,
+      "aspect_ratio": 1.9791666666666667,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV070",
+      "grid_position": "R8-C1",
+      "position": {
+        "x": 27,
+        "y": 1357,
+        "width": 68,
+        "height": 111
+      },
+      "area": 7548,
+      "aspect_ratio": 0.6126126126126126,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV071",
+      "grid_position": "R8-C2",
+      "position": {
+        "x": 95,
+        "y": 1357,
+        "width": 114,
+        "height": 111
+      },
+      "area": 12654,
+      "aspect_ratio": 1.027027027027027,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV072",
+      "grid_position": "R8-C3",
+      "position": {
+        "x": 209,
+        "y": 1357,
+        "width": 172,
+        "height": 111
+      },
+      "area": 19092,
+      "aspect_ratio": 1.5495495495495495,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV073",
+      "grid_position": "R8-C5",
+      "position": {
+        "x": 660,
+        "y": 1357,
+        "width": 202,
+        "height": 111
+      },
+      "area": 22422,
+      "aspect_ratio": 1.8198198198198199,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV074",
+      "grid_position": "R8-C6",
+      "position": {
+        "x": 862,
+        "y": 1357,
+        "width": 67,
+        "height": 111
+      },
+      "area": 7437,
+      "aspect_ratio": 0.6036036036036037,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV075",
+      "grid_position": "R8-C8",
+      "position": {
+        "x": 962,
+        "y": 1357,
+        "width": 210,
+        "height": 111
+      },
+      "area": 23310,
+      "aspect_ratio": 1.8918918918918919,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV076",
+      "grid_position": "R8-C9",
+      "position": {
+        "x": 1172,
+        "y": 1357,
+        "width": 166,
+        "height": 111
+      },
+      "area": 18426,
+      "aspect_ratio": 1.4954954954954955,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV077",
+      "grid_position": "R8-C10",
+      "position": {
+        "x": 1338,
+        "y": 1357,
+        "width": 139,
+        "height": 111
+      },
+      "area": 15429,
+      "aspect_ratio": 1.2522522522522523,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV078",
+      "grid_position": "R8-C12",
+      "position": {
+        "x": 1786,
+        "y": 1357,
+        "width": 215,
+        "height": 111
+      },
+      "area": 23865,
+      "aspect_ratio": 1.936936936936937,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV079",
+      "grid_position": "R8-C13",
+      "position": {
+        "x": 2001,
+        "y": 1357,
+        "width": 58,
+        "height": 111
+      },
+      "area": 6438,
+      "aspect_ratio": 0.5225225225225225,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV080",
+      "grid_position": "R8-C14",
+      "position": {
+        "x": 2059,
+        "y": 1357,
+        "width": 137,
+        "height": 111
+      },
+      "area": 15207,
+      "aspect_ratio": 1.2342342342342343,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV081",
+      "grid_position": "R8-C17",
+      "position": {
+        "x": 3023,
+        "y": 1357,
+        "width": 124,
+        "height": 111
+      },
+      "area": 13764,
+      "aspect_ratio": 1.117117117117117,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV082",
+      "grid_position": "R8-C18",
+      "position": {
+        "x": 3147,
+        "y": 1357,
+        "width": 73,
+        "height": 111
+      },
+      "area": 8103,
+      "aspect_ratio": 0.6576576576576577,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV083",
+      "grid_position": "R8-C19",
+      "position": {
+        "x": 3220,
+        "y": 1357,
+        "width": 78,
+        "height": 111
+      },
+      "area": 8658,
+      "aspect_ratio": 0.7027027027027027,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV084",
+      "grid_position": "R8-C20",
+      "position": {
+        "x": 3298,
+        "y": 1357,
+        "width": 58,
+        "height": 111
+      },
+      "area": 6438,
+      "aspect_ratio": 0.5225225225225225,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV085",
+      "grid_position": "R8-C21",
+      "position": {
+        "x": 3356,
+        "y": 1357,
+        "width": 67,
+        "height": 111
+      },
+      "area": 7437,
+      "aspect_ratio": 0.6036036036036037,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV086",
+      "grid_position": "R8-C22",
+      "position": {
+        "x": 3423,
+        "y": 1357,
+        "width": 112,
+        "height": 111
+      },
+      "area": 12432,
+      "aspect_ratio": 1.009009009009009,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV087",
+      "grid_position": "R8-C25",
+      "position": {
+        "x": 3626,
+        "y": 1357,
+        "width": 127,
+        "height": 111
+      },
+      "area": 14097,
+      "aspect_ratio": 1.1441441441441442,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV088",
+      "grid_position": "R8-C28",
+      "position": {
+        "x": 4371,
+        "y": 1357,
+        "width": 101,
+        "height": 111
+      },
+      "area": 11211,
+      "aspect_ratio": 0.9099099099099099,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV089",
+      "grid_position": "R8-C29",
+      "position": {
+        "x": 4472,
+        "y": 1357,
+        "width": 68,
+        "height": 111
+      },
+      "area": 7548,
+      "aspect_ratio": 0.6126126126126126,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV090",
+      "grid_position": "R8-C30",
+      "position": {
+        "x": 4540,
+        "y": 1357,
+        "width": 81,
+        "height": 111
+      },
+      "area": 8991,
+      "aspect_ratio": 0.7297297297297297,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV091",
+      "grid_position": "R8-C31",
+      "position": {
+        "x": 4621,
+        "y": 1357,
+        "width": 92,
+        "height": 111
+      },
+      "area": 10212,
+      "aspect_ratio": 0.8288288288288288,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV092",
+      "grid_position": "R8-C32",
+      "position": {
+        "x": 4713,
+        "y": 1357,
+        "width": 89,
+        "height": 111
+      },
+      "area": 9879,
+      "aspect_ratio": 0.8018018018018018,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV093",
+      "grid_position": "R8-C33",
+      "position": {
+        "x": 4802,
+        "y": 1357,
+        "width": 69,
+        "height": 111
+      },
+      "area": 7659,
+      "aspect_ratio": 0.6216216216216216,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV094",
+      "grid_position": "R8-C34",
+      "position": {
+        "x": 4871,
+        "y": 1357,
+        "width": 82,
+        "height": 111
+      },
+      "area": 9102,
+      "aspect_ratio": 0.7387387387387387,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV095",
+      "grid_position": "R8-C35",
+      "position": {
+        "x": 4953,
+        "y": 1357,
+        "width": 107,
+        "height": 111
+      },
+      "area": 11877,
+      "aspect_ratio": 0.963963963963964,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV096",
+      "grid_position": "R10-C1",
+      "position": {
+        "x": 27,
+        "y": 1515,
+        "width": 68,
+        "height": 56
+      },
+      "area": 3808,
+      "aspect_ratio": 1.2142857142857142,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV097",
+      "grid_position": "R10-C6",
+      "position": {
+        "x": 862,
+        "y": 1515,
+        "width": 67,
+        "height": 56
+      },
+      "area": 3752,
+      "aspect_ratio": 1.1964285714285714,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV098",
+      "grid_position": "R10-C13",
+      "position": {
+        "x": 2001,
+        "y": 1515,
+        "width": 58,
+        "height": 56
+      },
+      "area": 3248,
+      "aspect_ratio": 1.0357142857142858,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV099",
+      "grid_position": "R10-C18",
+      "position": {
+        "x": 3147,
+        "y": 1515,
+        "width": 73,
+        "height": 56
+      },
+      "area": 4088,
+      "aspect_ratio": 1.3035714285714286,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV100",
+      "grid_position": "R10-C19",
+      "position": {
+        "x": 3220,
+        "y": 1515,
+        "width": 78,
+        "height": 56
+      },
+      "area": 4368,
+      "aspect_ratio": 1.3928571428571428,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV101",
+      "grid_position": "R10-C20",
+      "position": {
+        "x": 3298,
+        "y": 1515,
+        "width": 58,
+        "height": 56
+      },
+      "area": 3248,
+      "aspect_ratio": 1.0357142857142858,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV102",
+      "grid_position": "R10-C21",
+      "position": {
+        "x": 3356,
+        "y": 1515,
+        "width": 67,
+        "height": 56
+      },
+      "area": 3752,
+      "aspect_ratio": 1.1964285714285714,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV103",
+      "grid_position": "R10-C23",
+      "position": {
+        "x": 3535,
+        "y": 1515,
+        "width": 51,
+        "height": 56
+      },
+      "area": 2856,
+      "aspect_ratio": 0.9107142857142857,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV104",
+      "grid_position": "R10-C28",
+      "position": {
+        "x": 4371,
+        "y": 1515,
+        "width": 101,
+        "height": 56
+      },
+      "area": 5656,
+      "aspect_ratio": 1.8035714285714286,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV105",
+      "grid_position": "R10-C29",
+      "position": {
+        "x": 4472,
+        "y": 1515,
+        "width": 68,
+        "height": 56
+      },
+      "area": 3808,
+      "aspect_ratio": 1.2142857142857142,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV106",
+      "grid_position": "R10-C30",
+      "position": {
+        "x": 4540,
+        "y": 1515,
+        "width": 81,
+        "height": 56
+      },
+      "area": 4536,
+      "aspect_ratio": 1.4464285714285714,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV107",
+      "grid_position": "R10-C31",
+      "position": {
+        "x": 4621,
+        "y": 1515,
+        "width": 92,
+        "height": 56
+      },
+      "area": 5152,
+      "aspect_ratio": 1.6428571428571428,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV108",
+      "grid_position": "R10-C32",
+      "position": {
+        "x": 4713,
+        "y": 1515,
+        "width": 89,
+        "height": 56
+      },
+      "area": 4984,
+      "aspect_ratio": 1.5892857142857142,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV109",
+      "grid_position": "R10-C33",
+      "position": {
+        "x": 4802,
+        "y": 1515,
+        "width": 69,
+        "height": 56
+      },
+      "area": 3864,
+      "aspect_ratio": 1.2321428571428572,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV110",
+      "grid_position": "R10-C34",
+      "position": {
+        "x": 4871,
+        "y": 1515,
+        "width": 82,
+        "height": 56
+      },
+      "area": 4592,
+      "aspect_ratio": 1.4642857142857142,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV111",
+      "grid_position": "R10-C35",
+      "position": {
+        "x": 4953,
+        "y": 1515,
+        "width": 107,
+        "height": 56
+      },
+      "area": 5992,
+      "aspect_ratio": 1.9107142857142858,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV112",
+      "grid_position": "R11-C2",
+      "position": {
+        "x": 95,
+        "y": 1571,
+        "width": 114,
+        "height": 213
+      },
+      "area": 24282,
+      "aspect_ratio": 0.5352112676056338,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV113",
+      "grid_position": "R11-C3",
+      "position": {
+        "x": 209,
+        "y": 1571,
+        "width": 172,
+        "height": 213
+      },
+      "area": 36636,
+      "aspect_ratio": 0.8075117370892019,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV114",
+      "grid_position": "R11-C4",
+      "position": {
+        "x": 381,
+        "y": 1571,
+        "width": 279,
+        "height": 213
+      },
+      "area": 59427,
+      "aspect_ratio": 1.3098591549295775,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV115",
+      "grid_position": "R11-C5",
+      "position": {
+        "x": 660,
+        "y": 1571,
+        "width": 202,
+        "height": 213
+      },
+      "area": 43026,
+      "aspect_ratio": 0.9483568075117371,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV116",
+      "grid_position": "R11-C8",
+      "position": {
+        "x": 962,
+        "y": 1571,
+        "width": 210,
+        "height": 213
+      },
+      "area": 44730,
+      "aspect_ratio": 0.9859154929577465,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV117",
+      "grid_position": "R11-C9",
+      "position": {
+        "x": 1172,
+        "y": 1571,
+        "width": 166,
+        "height": 213
+      },
+      "area": 35358,
+      "aspect_ratio": 0.7793427230046949,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV118",
+      "grid_position": "R11-C10",
+      "position": {
+        "x": 1338,
+        "y": 1571,
+        "width": 139,
+        "height": 213
+      },
+      "area": 29607,
+      "aspect_ratio": 0.6525821596244131,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV119",
+      "grid_position": "R11-C12",
+      "position": {
+        "x": 1786,
+        "y": 1571,
+        "width": 215,
+        "height": 213
+      },
+      "area": 45795,
+      "aspect_ratio": 1.0093896713615023,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV120",
+      "grid_position": "R11-C14",
+      "position": {
+        "x": 2059,
+        "y": 1571,
+        "width": 137,
+        "height": 213
+      },
+      "area": 29181,
+      "aspect_ratio": 0.6431924882629108,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV121",
+      "grid_position": "R11-C17",
+      "position": {
+        "x": 3023,
+        "y": 1571,
+        "width": 124,
+        "height": 213
+      },
+      "area": 26412,
+      "aspect_ratio": 0.5821596244131455,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV122",
+      "grid_position": "R11-C22",
+      "position": {
+        "x": 3423,
+        "y": 1571,
+        "width": 112,
+        "height": 213
+      },
+      "area": 23856,
+      "aspect_ratio": 0.5258215962441315,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV123",
+      "grid_position": "R11-C25",
+      "position": {
+        "x": 3626,
+        "y": 1571,
+        "width": 127,
+        "height": 213
+      },
+      "area": 27051,
+      "aspect_ratio": 0.596244131455399,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV124",
+      "grid_position": "R11-C27",
+      "position": {
+        "x": 4093,
+        "y": 1571,
+        "width": 278,
+        "height": 213
+      },
+      "area": 59214,
+      "aspect_ratio": 1.3051643192488263,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV125",
+      "grid_position": "R11-C35",
+      "position": {
+        "x": 4953,
+        "y": 1571,
+        "width": 107,
+        "height": 213
+      },
+      "area": 22791,
+      "aspect_ratio": 0.5023474178403756,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV126",
+      "grid_position": "R11-C36",
+      "position": {
+        "x": 5060,
+        "y": 1571,
+        "width": 285,
+        "height": 213
+      },
+      "area": 60705,
+      "aspect_ratio": 1.3380281690140845,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV127",
+      "grid_position": "R12-C2",
+      "position": {
+        "x": 95,
+        "y": 1784,
+        "width": 114,
+        "height": 222
+      },
+      "area": 25308,
+      "aspect_ratio": 0.5135135135135135,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV128",
+      "grid_position": "R12-C3",
+      "position": {
+        "x": 209,
+        "y": 1784,
+        "width": 172,
+        "height": 222
+      },
+      "area": 38184,
+      "aspect_ratio": 0.7747747747747747,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV129",
+      "grid_position": "R12-C4",
+      "position": {
+        "x": 381,
+        "y": 1784,
+        "width": 279,
+        "height": 222
+      },
+      "area": 61938,
+      "aspect_ratio": 1.2567567567567568,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV130",
+      "grid_position": "R12-C5",
+      "position": {
+        "x": 660,
+        "y": 1784,
+        "width": 202,
+        "height": 222
+      },
+      "area": 44844,
+      "aspect_ratio": 0.9099099099099099,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV131",
+      "grid_position": "R12-C8",
+      "position": {
+        "x": 962,
+        "y": 1784,
+        "width": 210,
+        "height": 222
+      },
+      "area": 46620,
+      "aspect_ratio": 0.9459459459459459,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV132",
+      "grid_position": "R12-C9",
+      "position": {
+        "x": 1172,
+        "y": 1784,
+        "width": 166,
+        "height": 222
+      },
+      "area": 36852,
+      "aspect_ratio": 0.7477477477477478,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV133",
+      "grid_position": "R12-C10",
+      "position": {
+        "x": 1338,
+        "y": 1784,
+        "width": 139,
+        "height": 222
+      },
+      "area": 30858,
+      "aspect_ratio": 0.6261261261261262,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV134",
+      "grid_position": "R12-C12",
+      "position": {
+        "x": 1786,
+        "y": 1784,
+        "width": 215,
+        "height": 222
+      },
+      "area": 47730,
+      "aspect_ratio": 0.9684684684684685,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV135",
+      "grid_position": "R12-C14",
+      "position": {
+        "x": 2059,
+        "y": 1784,
+        "width": 137,
+        "height": 222
+      },
+      "area": 30414,
+      "aspect_ratio": 0.6171171171171171,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV136",
+      "grid_position": "R12-C36",
+      "position": {
+        "x": 5060,
+        "y": 1784,
+        "width": 285,
+        "height": 222
+      },
+      "area": 63270,
+      "aspect_ratio": 1.2837837837837838,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV137",
+      "position": {
+        "x": 2473,
+        "y": 1898,
+        "width": 106,
+        "height": 73
+      },
+      "area": 4928.5,
+      "aspect_ratio": 1.452054794520548,
+      "rectangularity": 0.6369216851899716,
+      "contour_area": 4928.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV138",
+      "position": {
+        "x": 2550,
+        "y": 1899,
+        "width": 105,
+        "height": 73
+      },
+      "area": 4940.5,
+      "aspect_ratio": 1.4383561643835616,
+      "rectangularity": 0.6445531637312459,
+      "contour_area": 4940.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV139",
+      "position": {
+        "x": 2628,
+        "y": 1900,
+        "width": 104,
+        "height": 72
+      },
+      "area": 4961.5,
+      "aspect_ratio": 1.4444444444444444,
+      "rectangularity": 0.6625934829059829,
+      "contour_area": 4961.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV140",
+      "position": {
+        "x": 2706,
+        "y": 1900,
+        "width": 103,
+        "height": 72
+      },
+      "area": 4917.5,
+      "aspect_ratio": 1.4305555555555556,
+      "rectangularity": 0.6630933117583603,
+      "contour_area": 4917.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV141",
+      "position": {
+        "x": 2783,
+        "y": 1900,
+        "width": 100,
+        "height": 72
+      },
+      "area": 4874.5,
+      "aspect_ratio": 1.3888888888888888,
+      "rectangularity": 0.6770138888888889,
+      "contour_area": 4874.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV142",
+      "position": {
+        "x": 2870,
+        "y": 1901,
+        "width": 97,
+        "height": 73
+      },
+      "area": 4903.0,
+      "aspect_ratio": 1.3287671232876712,
+      "rectangularity": 0.6924163253777715,
+      "contour_area": 4903.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV143",
+      "position": {
+        "x": 2945,
+        "y": 1901,
+        "width": 99,
+        "height": 74
+      },
+      "area": 5063.0,
+      "aspect_ratio": 1.337837837837838,
+      "rectangularity": 0.691100191100191,
+      "contour_area": 5063.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV144",
+      "position": {
+        "x": 3025,
+        "y": 1903,
+        "width": 96,
+        "height": 73
+      },
+      "area": 5005.0,
+      "aspect_ratio": 1.3150684931506849,
+      "rectangularity": 0.7141837899543378,
+      "contour_area": 5005.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV145",
+      "position": {
+        "x": 3102,
+        "y": 1904,
+        "width": 95,
+        "height": 73
+      },
+      "area": 5031.5,
+      "aspect_ratio": 1.3013698630136987,
+      "rectangularity": 0.7255227108868061,
+      "contour_area": 5031.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV146",
+      "position": {
+        "x": 3342,
+        "y": 1907,
+        "width": 91,
+        "height": 73
+      },
+      "area": 4985.5,
+      "aspect_ratio": 1.2465753424657535,
+      "rectangularity": 0.7504892367906066,
+      "contour_area": 4985.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV147",
+      "position": {
+        "x": 3420,
+        "y": 1908,
+        "width": 90,
+        "height": 74
+      },
+      "area": 5010.0,
+      "aspect_ratio": 1.2162162162162162,
+      "rectangularity": 0.7522522522522522,
+      "contour_area": 5010.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV148",
+      "position": {
+        "x": 3499,
+        "y": 1909,
+        "width": 88,
+        "height": 73
+      },
+      "area": 5002.5,
+      "aspect_ratio": 1.2054794520547945,
+      "rectangularity": 0.7787204234122043,
+      "contour_area": 5002.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV149",
+      "position": {
+        "x": 3577,
+        "y": 1910,
+        "width": 86,
+        "height": 73
+      },
+      "area": 4995.5,
+      "aspect_ratio": 1.178082191780822,
+      "rectangularity": 0.7957151959222682,
+      "contour_area": 4995.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV150",
+      "position": {
+        "x": 3656,
+        "y": 1911,
+        "width": 85,
+        "height": 72
+      },
+      "area": 5060.5,
+      "aspect_ratio": 1.1805555555555556,
+      "rectangularity": 0.8268790849673202,
+      "contour_area": 5060.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV151",
+      "position": {
+        "x": 3735,
+        "y": 1911,
+        "width": 82,
+        "height": 72
+      },
+      "area": 4930.0,
+      "aspect_ratio": 1.1388888888888888,
+      "rectangularity": 0.8350271002710027,
+      "contour_area": 4930.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV152",
+      "position": {
+        "x": 3819,
+        "y": 1912,
+        "width": 81,
+        "height": 72
+      },
+      "area": 4983.5,
+      "aspect_ratio": 1.125,
+      "rectangularity": 0.8545096021947873,
+      "contour_area": 4983.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV153",
+      "position": {
+        "x": 3897,
+        "y": 1913,
+        "width": 84,
+        "height": 73
+      },
+      "area": 5029.0,
+      "aspect_ratio": 1.1506849315068493,
+      "rectangularity": 0.8201239399869537,
+      "contour_area": 5029.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV154",
+      "position": {
+        "x": 3976,
+        "y": 1914,
+        "width": 80,
+        "height": 74
+      },
+      "area": 5042.5,
+      "aspect_ratio": 1.0810810810810811,
+      "rectangularity": 0.8517736486486487,
+      "contour_area": 5042.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV155",
+      "position": {
+        "x": 4055,
+        "y": 1916,
+        "width": 79,
+        "height": 72
+      },
+      "area": 5081.0,
+      "aspect_ratio": 1.0972222222222223,
+      "rectangularity": 0.8932841068917018,
+      "contour_area": 5081.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV156",
+      "position": {
+        "x": 4134,
+        "y": 1916,
+        "width": 78,
+        "height": 74
+      },
+      "area": 5141.5,
+      "aspect_ratio": 1.054054054054054,
+      "rectangularity": 0.8907657657657657,
+      "contour_area": 5141.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV157",
+      "position": {
+        "x": 4213,
+        "y": 1916,
+        "width": 76,
+        "height": 75
+      },
+      "area": 5153.5,
+      "aspect_ratio": 1.0133333333333334,
+      "rectangularity": 0.9041228070175439,
+      "contour_area": 5153.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV158",
+      "position": {
+        "x": 4302,
+        "y": 1918,
+        "width": 74,
+        "height": 73
+      },
+      "area": 5122.5,
+      "aspect_ratio": 1.0136986301369864,
+      "rectangularity": 0.9482599037393558,
+      "contour_area": 5122.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV159",
+      "position": {
+        "x": 4380,
+        "y": 1918,
+        "width": 75,
+        "height": 74
+      },
+      "area": 5106.0,
+      "aspect_ratio": 1.0135135135135136,
+      "rectangularity": 0.92,
+      "contour_area": 5106.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV160",
+      "position": {
+        "x": 4459,
+        "y": 1920,
+        "width": 76,
+        "height": 74
+      },
+      "area": 5148.0,
+      "aspect_ratio": 1.027027027027027,
+      "rectangularity": 0.9153627311522048,
+      "contour_area": 5148.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV161",
+      "position": {
+        "x": 4537,
+        "y": 1922,
+        "width": 78,
+        "height": 73
+      },
+      "area": 5116.5,
+      "aspect_ratio": 1.0684931506849316,
+      "rectangularity": 0.8985774499473129,
+      "contour_area": 5116.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV162",
+      "position": {
+        "x": 4616,
+        "y": 1923,
+        "width": 79,
+        "height": 74
+      },
+      "area": 5190.0,
+      "aspect_ratio": 1.0675675675675675,
+      "rectangularity": 0.8877865206979131,
+      "contour_area": 5190.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV163",
+      "position": {
+        "x": 4695,
+        "y": 1924,
+        "width": 80,
+        "height": 75
+      },
+      "area": 5211.5,
+      "aspect_ratio": 1.0666666666666667,
+      "rectangularity": 0.8685833333333334,
+      "contour_area": 5211.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV164",
+      "position": {
+        "x": 2831,
+        "y": 2001,
+        "width": 100,
+        "height": 76
+      },
+      "area": 5290.5,
+      "aspect_ratio": 1.3157894736842106,
+      "rectangularity": 0.6961184210526316,
+      "contour_area": 5290.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV165",
+      "grid_position": "R13-C1",
+      "position": {
+        "x": 27,
+        "y": 2006,
+        "width": 68,
+        "height": 68
+      },
+      "area": 4624,
+      "aspect_ratio": 1.0,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV166",
+      "grid_position": "R13-C2",
+      "position": {
+        "x": 95,
+        "y": 2006,
+        "width": 114,
+        "height": 68
+      },
+      "area": 7752,
+      "aspect_ratio": 1.6764705882352942,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV167",
+      "grid_position": "R13-C6",
+      "position": {
+        "x": 862,
+        "y": 2006,
+        "width": 67,
+        "height": 68
+      },
+      "area": 4556,
+      "aspect_ratio": 0.9852941176470589,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV168",
+      "grid_position": "R13-C13",
+      "position": {
+        "x": 2001,
+        "y": 2006,
+        "width": 58,
+        "height": 68
+      },
+      "area": 3944,
+      "aspect_ratio": 0.8529411764705882,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV169",
+      "grid_position": "R13-C17",
+      "position": {
+        "x": 3023,
+        "y": 2006,
+        "width": 124,
+        "height": 68
+      },
+      "area": 8432,
+      "aspect_ratio": 1.8235294117647058,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV170",
+      "grid_position": "R13-C18",
+      "position": {
+        "x": 3147,
+        "y": 2006,
+        "width": 73,
+        "height": 68
+      },
+      "area": 4964,
+      "aspect_ratio": 1.0735294117647058,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV171",
+      "grid_position": "R13-C19",
+      "position": {
+        "x": 3220,
+        "y": 2006,
+        "width": 78,
+        "height": 68
+      },
+      "area": 5304,
+      "aspect_ratio": 1.1470588235294117,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV172",
+      "grid_position": "R13-C20",
+      "position": {
+        "x": 3298,
+        "y": 2006,
+        "width": 58,
+        "height": 68
+      },
+      "area": 3944,
+      "aspect_ratio": 0.8529411764705882,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV173",
+      "grid_position": "R13-C21",
+      "position": {
+        "x": 3356,
+        "y": 2006,
+        "width": 67,
+        "height": 68
+      },
+      "area": 4556,
+      "aspect_ratio": 0.9852941176470589,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV174",
+      "grid_position": "R13-C22",
+      "position": {
+        "x": 3423,
+        "y": 2006,
+        "width": 112,
+        "height": 68
+      },
+      "area": 7616,
+      "aspect_ratio": 1.6470588235294117,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV175",
+      "grid_position": "R13-C23",
+      "position": {
+        "x": 3535,
+        "y": 2006,
+        "width": 51,
+        "height": 68
+      },
+      "area": 3468,
+      "aspect_ratio": 0.75,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV176",
+      "grid_position": "R13-C25",
+      "position": {
+        "x": 3626,
+        "y": 2006,
+        "width": 127,
+        "height": 68
+      },
+      "area": 8636,
+      "aspect_ratio": 1.8676470588235294,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV177",
+      "grid_position": "R13-C28",
+      "position": {
+        "x": 4371,
+        "y": 2006,
+        "width": 101,
+        "height": 68
+      },
+      "area": 6868,
+      "aspect_ratio": 1.4852941176470589,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV178",
+      "grid_position": "R13-C29",
+      "position": {
+        "x": 4472,
+        "y": 2006,
+        "width": 68,
+        "height": 68
+      },
+      "area": 4624,
+      "aspect_ratio": 1.0,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV179",
+      "grid_position": "R13-C35",
+      "position": {
+        "x": 4953,
+        "y": 2006,
+        "width": 107,
+        "height": 68
+      },
+      "area": 7276,
+      "aspect_ratio": 1.5735294117647058,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV180",
+      "position": {
+        "x": 4540,
+        "y": 2023,
+        "width": 79,
+        "height": 79
+      },
+      "area": 5645.5,
+      "aspect_ratio": 1.0,
+      "rectangularity": 0.9045825989424772,
+      "contour_area": 5645.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV181",
+      "position": {
+        "x": 4620,
+        "y": 2025,
+        "width": 80,
+        "height": 79
+      },
+      "area": 5640.5,
+      "aspect_ratio": 1.0126582278481013,
+      "rectangularity": 0.8924841772151899,
+      "contour_area": 5640.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV182",
+      "position": {
+        "x": 4700,
+        "y": 2026,
+        "width": 83,
+        "height": 80
+      },
+      "area": 5696.0,
+      "aspect_ratio": 1.0375,
+      "rectangularity": 0.8578313253012049,
+      "contour_area": 5696.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV183",
+      "position": {
+        "x": 4780,
+        "y": 2027,
+        "width": 85,
+        "height": 79
+      },
+      "area": 5745.5,
+      "aspect_ratio": 1.0759493670886076,
+      "rectangularity": 0.8556217423678332,
+      "contour_area": 5745.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV184",
+      "position": {
+        "x": 4861,
+        "y": 2028,
+        "width": 85,
+        "height": 80
+      },
+      "area": 5674.0,
+      "aspect_ratio": 1.0625,
+      "rectangularity": 0.8344117647058824,
+      "contour_area": 5674.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV185",
+      "position": {
+        "x": 2319,
+        "y": 2103,
+        "width": 112,
+        "height": 78
+      },
+      "area": 5466.0,
+      "aspect_ratio": 1.435897435897436,
+      "rectangularity": 0.6256868131868132,
+      "contour_area": 5466.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV186",
+      "position": {
+        "x": 2398,
+        "y": 2103,
+        "width": 112,
+        "height": 79
+      },
+      "area": 5540.0,
+      "aspect_ratio": 1.4177215189873418,
+      "rectangularity": 0.6261301989150091,
+      "contour_area": 5540.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV187",
+      "position": {
+        "x": 2970,
+        "y": 2109,
+        "width": 100,
+        "height": 79
+      },
+      "area": 5631.5,
+      "aspect_ratio": 1.2658227848101267,
+      "rectangularity": 0.7128481012658228,
+      "contour_area": 5631.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV188",
+      "position": {
+        "x": 2889,
+        "y": 2330,
+        "width": 107,
+        "height": 88
+      },
+      "area": 6624.5,
+      "aspect_ratio": 1.2159090909090908,
+      "rectangularity": 0.7035365335598981,
+      "contour_area": 6624.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV189",
+      "position": {
+        "x": 3229,
+        "y": 2332,
+        "width": 98,
+        "height": 90
+      },
+      "area": 6606.5,
+      "aspect_ratio": 1.0888888888888888,
+      "rectangularity": 0.7490362811791383,
+      "contour_area": 6606.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV190",
+      "position": {
+        "x": 3319,
+        "y": 2334,
+        "width": 99,
+        "height": 91
+      },
+      "area": 6715.0,
+      "aspect_ratio": 1.0879120879120878,
+      "rectangularity": 0.7453657453657454,
+      "contour_area": 6715.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV191",
+      "position": {
+        "x": 3491,
+        "y": 2337,
+        "width": 95,
+        "height": 89
+      },
+      "area": 6725.5,
+      "aspect_ratio": 1.0674157303370786,
+      "rectangularity": 0.7954464813719693,
+      "contour_area": 6725.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV192",
+      "position": {
+        "x": 3661,
+        "y": 2340,
+        "width": 93,
+        "height": 90
+      },
+      "area": 6312.0,
+      "aspect_ratio": 1.0333333333333334,
+      "rectangularity": 0.7541218637992831,
+      "contour_area": 6312.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV193",
+      "position": {
+        "x": 3748,
+        "y": 2342,
+        "width": 90,
+        "height": 89
+      },
+      "area": 6689.5,
+      "aspect_ratio": 1.0112359550561798,
+      "rectangularity": 0.835143570536829,
+      "contour_area": 6689.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV194",
+      "position": {
+        "x": 2769,
+        "y": 2447,
+        "width": 111,
+        "height": 92
+      },
+      "area": 7051.5,
+      "aspect_ratio": 1.2065217391304348,
+      "rectangularity": 0.6905111633372503,
+      "contour_area": 7051.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV195",
+      "position": {
+        "x": 2855,
+        "y": 2448,
+        "width": 111,
+        "height": 92
+      },
+      "area": 7091.5,
+      "aspect_ratio": 1.2065217391304348,
+      "rectangularity": 0.6944281237759499,
+      "contour_area": 7091.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV196",
+      "position": {
+        "x": 2941,
+        "y": 2449,
+        "width": 108,
+        "height": 93
+      },
+      "area": 6920.5,
+      "aspect_ratio": 1.1612903225806452,
+      "rectangularity": 0.6890183193946635,
+      "contour_area": 6920.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV197",
+      "position": {
+        "x": 3028,
+        "y": 2450,
+        "width": 108,
+        "height": 93
+      },
+      "area": 7108.5,
+      "aspect_ratio": 1.1612903225806452,
+      "rectangularity": 0.7077359617682198,
+      "contour_area": 7108.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV198",
+      "position": {
+        "x": 3201,
+        "y": 2452,
+        "width": 103,
+        "height": 94
+      },
+      "area": 7145.0,
+      "aspect_ratio": 1.0957446808510638,
+      "rectangularity": 0.7379673621152655,
+      "contour_area": 7145.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV199",
+      "position": {
+        "x": 3295,
+        "y": 2454,
+        "width": 102,
+        "height": 93
+      },
+      "area": 7114.5,
+      "aspect_ratio": 1.096774193548387,
+      "rectangularity": 0.75,
+      "contour_area": 7114.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV200",
+      "position": {
+        "x": 3556,
+        "y": 2459,
+        "width": 97,
+        "height": 93
+      },
+      "area": 6779.0,
+      "aspect_ratio": 1.043010752688172,
+      "rectangularity": 0.75146879503381,
+      "contour_area": 6779.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV201",
+      "position": {
+        "x": 3644,
+        "y": 2460,
+        "width": 95,
+        "height": 94
+      },
+      "area": 7260.5,
+      "aspect_ratio": 1.0106382978723405,
+      "rectangularity": 0.8130459126539754,
+      "contour_area": 7260.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV202",
+      "position": {
+        "x": 3739,
+        "y": 2461,
+        "width": 85,
+        "height": 45
+      },
+      "area": 3409.0,
+      "aspect_ratio": 1.8888888888888888,
+      "rectangularity": 0.8912418300653595,
+      "contour_area": 3409.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV203",
+      "position": {
+        "x": 3916,
+        "y": 2464,
+        "width": 90,
+        "height": 94
+      },
+      "area": 7258.5,
+      "aspect_ratio": 0.9574468085106383,
+      "rectangularity": 0.8579787234042553,
+      "contour_area": 7258.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV204",
+      "position": {
+        "x": 4177,
+        "y": 2467,
+        "width": 88,
+        "height": 95
+      },
+      "area": 7351.5,
+      "aspect_ratio": 0.9263157894736842,
+      "rectangularity": 0.879366028708134,
+      "contour_area": 7351.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV205",
+      "position": {
+        "x": 3731,
+        "y": 2509,
+        "width": 88,
+        "height": 47
+      },
+      "area": 3471.0,
+      "aspect_ratio": 1.872340425531915,
+      "rectangularity": 0.8392166344294004,
+      "contour_area": 3471.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV206",
+      "position": {
+        "x": 2909,
+        "y": 2573,
+        "width": 113,
+        "height": 101
+      },
+      "area": 7918.5,
+      "aspect_ratio": 1.118811881188119,
+      "rectangularity": 0.693814071672654,
+      "contour_area": 7918.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV207",
+      "position": {
+        "x": 2997,
+        "y": 2574,
+        "width": 111,
+        "height": 102
+      },
+      "area": 7907.0,
+      "aspect_ratio": 1.088235294117647,
+      "rectangularity": 0.698374845433669,
+      "contour_area": 7907.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV208",
+      "position": {
+        "x": 3085,
+        "y": 2576,
+        "width": 110,
+        "height": 102
+      },
+      "area": 7966.5,
+      "aspect_ratio": 1.0784313725490196,
+      "rectangularity": 0.7100267379679145,
+      "contour_area": 7966.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV209",
+      "position": {
+        "x": 3270,
+        "y": 2580,
+        "width": 105,
+        "height": 102
+      },
+      "area": 7971.0,
+      "aspect_ratio": 1.0294117647058822,
+      "rectangularity": 0.7442577030812325,
+      "contour_area": 7971.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV210",
+      "position": {
+        "x": 3449,
+        "y": 2582,
+        "width": 101,
+        "height": 104
+      },
+      "area": 8091.0,
+      "aspect_ratio": 0.9711538461538461,
+      "rectangularity": 0.7702779893373953,
+      "contour_area": 8091.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV211",
+      "position": {
+        "x": 3716,
+        "y": 2587,
+        "width": 96,
+        "height": 101
+      },
+      "area": 8024.0,
+      "aspect_ratio": 0.9504950495049505,
+      "rectangularity": 0.8275577557755776,
+      "contour_area": 8024.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV212",
+      "position": {
+        "x": 3160,
+        "y": 2713,
+        "width": 95,
+        "height": 48
+      },
+      "area": 3737.5,
+      "aspect_ratio": 1.9791666666666667,
+      "rectangularity": 0.8196271929824561,
+      "contour_area": 3737.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV213",
+      "position": {
+        "x": 3336,
+        "y": 2716,
+        "width": 106,
+        "height": 109
+      },
+      "area": 8724.0,
+      "aspect_ratio": 0.9724770642201835,
+      "rectangularity": 0.755063181582136,
+      "contour_area": 8724.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV214",
+      "position": {
+        "x": 3426,
+        "y": 2717,
+        "width": 105,
+        "height": 108
+      },
+      "area": 8823.5,
+      "aspect_ratio": 0.9722222222222222,
+      "rectangularity": 0.7780864197530865,
+      "contour_area": 8823.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV215",
+      "position": {
+        "x": 3609,
+        "y": 2719,
+        "width": 101,
+        "height": 107
+      },
+      "area": 8608.5,
+      "aspect_ratio": 0.9439252336448598,
+      "rectangularity": 0.7965670398815583,
+      "contour_area": 8608.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV216",
+      "position": {
+        "x": 3701,
+        "y": 2720,
+        "width": 98,
+        "height": 107
+      },
+      "area": 8186.0,
+      "aspect_ratio": 0.9158878504672897,
+      "rectangularity": 0.7806599275224109,
+      "contour_area": 8186.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV217",
+      "position": {
+        "x": 3985,
+        "y": 2725,
+        "width": 184,
+        "height": 110
+      },
+      "area": 17635.5,
+      "aspect_ratio": 1.6727272727272726,
+      "rectangularity": 0.8713191699604743,
+      "contour_area": 17635.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV218",
+      "position": {
+        "x": 4170,
+        "y": 2727,
+        "width": 91,
+        "height": 110
+      },
+      "area": 8897.0,
+      "aspect_ratio": 0.8272727272727273,
+      "rectangularity": 0.8888111888111888,
+      "contour_area": 8897.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV219",
+      "position": {
+        "x": 4263,
+        "y": 2728,
+        "width": 85,
+        "height": 109
+      },
+      "area": 8763.5,
+      "aspect_ratio": 0.7798165137614679,
+      "rectangularity": 0.9458715596330275,
+      "contour_area": 8763.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV220",
+      "position": {
+        "x": 4361,
+        "y": 2730,
+        "width": 86,
+        "height": 109
+      },
+      "area": 8801.0,
+      "aspect_ratio": 0.7889908256880734,
+      "rectangularity": 0.9388734798378494,
+      "contour_area": 8801.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV221",
+      "position": {
+        "x": 4451,
+        "y": 2733,
+        "width": 89,
+        "height": 109
+      },
+      "area": 8472.0,
+      "aspect_ratio": 0.8165137614678899,
+      "rectangularity": 0.8733120296876611,
+      "contour_area": 8472.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV222",
+      "position": {
+        "x": 4544,
+        "y": 2734,
+        "width": 87,
+        "height": 53
+      },
+      "area": 4226.5,
+      "aspect_ratio": 1.6415094339622642,
+      "rectangularity": 0.9166124484927347,
+      "contour_area": 4226.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV223",
+      "position": {
+        "x": 4634,
+        "y": 2736,
+        "width": 89,
+        "height": 53
+      },
+      "area": 4275.0,
+      "aspect_ratio": 1.679245283018868,
+      "rectangularity": 0.9062963748145008,
+      "contour_area": 4275.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV224",
+      "position": {
+        "x": 4726,
+        "y": 2737,
+        "width": 94,
+        "height": 111
+      },
+      "area": 8825.5,
+      "aspect_ratio": 0.8468468468468469,
+      "rectangularity": 0.8458405213724363,
+      "contour_area": 8825.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV225",
+      "position": {
+        "x": 4818,
+        "y": 2738,
+        "width": 89,
+        "height": 55
+      },
+      "area": 4394.5,
+      "aspect_ratio": 1.6181818181818182,
+      "rectangularity": 0.8977528089887641,
+      "contour_area": 4394.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV226",
+      "grid_position": "R16-C1",
+      "position": {
+        "x": 27,
+        "y": 2787,
+        "width": 68,
+        "height": 70
+      },
+      "area": 4760,
+      "aspect_ratio": 0.9714285714285714,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV227",
+      "grid_position": "R16-C2",
+      "position": {
+        "x": 95,
+        "y": 2787,
+        "width": 114,
+        "height": 70
+      },
+      "area": 7980,
+      "aspect_ratio": 1.6285714285714286,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV228",
+      "grid_position": "R16-C6",
+      "position": {
+        "x": 862,
+        "y": 2787,
+        "width": 67,
+        "height": 70
+      },
+      "area": 4690,
+      "aspect_ratio": 0.9571428571428572,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV229",
+      "grid_position": "R16-C10",
+      "position": {
+        "x": 1338,
+        "y": 2787,
+        "width": 139,
+        "height": 70
+      },
+      "area": 9730,
+      "aspect_ratio": 1.9857142857142858,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV230",
+      "grid_position": "R16-C13",
+      "position": {
+        "x": 2001,
+        "y": 2787,
+        "width": 58,
+        "height": 70
+      },
+      "area": 4060,
+      "aspect_ratio": 0.8285714285714286,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV231",
+      "grid_position": "R16-C14",
+      "position": {
+        "x": 2059,
+        "y": 2787,
+        "width": 137,
+        "height": 70
+      },
+      "area": 9590,
+      "aspect_ratio": 1.957142857142857,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV232",
+      "grid_position": "R16-C17",
+      "position": {
+        "x": 3023,
+        "y": 2787,
+        "width": 124,
+        "height": 70
+      },
+      "area": 8680,
+      "aspect_ratio": 1.7714285714285714,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV233",
+      "grid_position": "R16-C18",
+      "position": {
+        "x": 3147,
+        "y": 2787,
+        "width": 73,
+        "height": 70
+      },
+      "area": 5110,
+      "aspect_ratio": 1.042857142857143,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV234",
+      "grid_position": "R16-C19",
+      "position": {
+        "x": 3220,
+        "y": 2787,
+        "width": 78,
+        "height": 70
+      },
+      "area": 5460,
+      "aspect_ratio": 1.1142857142857143,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV235",
+      "grid_position": "R16-C20",
+      "position": {
+        "x": 3298,
+        "y": 2787,
+        "width": 58,
+        "height": 70
+      },
+      "area": 4060,
+      "aspect_ratio": 0.8285714285714286,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV236",
+      "grid_position": "R16-C23",
+      "position": {
+        "x": 3535,
+        "y": 2787,
+        "width": 51,
+        "height": 70
+      },
+      "area": 3570,
+      "aspect_ratio": 0.7285714285714285,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV237",
+      "grid_position": "R16-C25",
+      "position": {
+        "x": 3626,
+        "y": 2787,
+        "width": 127,
+        "height": 70
+      },
+      "area": 8890,
+      "aspect_ratio": 1.8142857142857143,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV238",
+      "grid_position": "R16-C34",
+      "position": {
+        "x": 4871,
+        "y": 2787,
+        "width": 82,
+        "height": 70
+      },
+      "area": 5740,
+      "aspect_ratio": 1.1714285714285715,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV239",
+      "grid_position": "R16-C35",
+      "position": {
+        "x": 4953,
+        "y": 2787,
+        "width": 107,
+        "height": 70
+      },
+      "area": 7490,
+      "aspect_ratio": 1.5285714285714285,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV240",
+      "position": {
+        "x": 4544,
+        "y": 2789,
+        "width": 90,
+        "height": 55
+      },
+      "area": 4358.5,
+      "aspect_ratio": 1.6363636363636365,
+      "rectangularity": 0.8805050505050505,
+      "contour_area": 4358.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV241",
+      "position": {
+        "x": 4636,
+        "y": 2791,
+        "width": 90,
+        "height": 55
+      },
+      "area": 4413.0,
+      "aspect_ratio": 1.6363636363636365,
+      "rectangularity": 0.8915151515151515,
+      "contour_area": 4413.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV242",
+      "position": {
+        "x": 4822,
+        "y": 2794,
+        "width": 91,
+        "height": 56
+      },
+      "area": 4496.0,
+      "aspect_ratio": 1.625,
+      "rectangularity": 0.8822605965463108,
+      "contour_area": 4496.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV243",
+      "grid_position": "R17-C1",
+      "position": {
+        "x": 27,
+        "y": 2857,
+        "width": 68,
+        "height": 86
+      },
+      "area": 5848,
+      "aspect_ratio": 0.7906976744186046,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV244",
+      "grid_position": "R17-C2",
+      "position": {
+        "x": 95,
+        "y": 2857,
+        "width": 114,
+        "height": 86
+      },
+      "area": 9804,
+      "aspect_ratio": 1.3255813953488371,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV245",
+      "grid_position": "R17-C6",
+      "position": {
+        "x": 862,
+        "y": 2857,
+        "width": 67,
+        "height": 86
+      },
+      "area": 5762,
+      "aspect_ratio": 0.7790697674418605,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV246",
+      "grid_position": "R17-C9",
+      "position": {
+        "x": 1172,
+        "y": 2857,
+        "width": 166,
+        "height": 86
+      },
+      "area": 14276,
+      "aspect_ratio": 1.930232558139535,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV247",
+      "grid_position": "R17-C10",
+      "position": {
+        "x": 1338,
+        "y": 2857,
+        "width": 139,
+        "height": 86
+      },
+      "area": 11954,
+      "aspect_ratio": 1.6162790697674418,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV248",
+      "grid_position": "R17-C13",
+      "position": {
+        "x": 2001,
+        "y": 2857,
+        "width": 58,
+        "height": 86
+      },
+      "area": 4988,
+      "aspect_ratio": 0.6744186046511628,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV249",
+      "grid_position": "R17-C14",
+      "position": {
+        "x": 2059,
+        "y": 2857,
+        "width": 137,
+        "height": 86
+      },
+      "area": 11782,
+      "aspect_ratio": 1.5930232558139534,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV250",
+      "grid_position": "R17-C17",
+      "position": {
+        "x": 3023,
+        "y": 2857,
+        "width": 124,
+        "height": 86
+      },
+      "area": 10664,
+      "aspect_ratio": 1.441860465116279,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV251",
+      "grid_position": "R17-C18",
+      "position": {
+        "x": 3147,
+        "y": 2857,
+        "width": 73,
+        "height": 86
+      },
+      "area": 6278,
+      "aspect_ratio": 0.8488372093023255,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV252",
+      "grid_position": "R17-C19",
+      "position": {
+        "x": 3220,
+        "y": 2857,
+        "width": 78,
+        "height": 86
+      },
+      "area": 6708,
+      "aspect_ratio": 0.9069767441860465,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV253",
+      "grid_position": "R17-C20",
+      "position": {
+        "x": 3298,
+        "y": 2857,
+        "width": 58,
+        "height": 86
+      },
+      "area": 4988,
+      "aspect_ratio": 0.6744186046511628,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV254",
+      "grid_position": "R17-C21",
+      "position": {
+        "x": 3356,
+        "y": 2857,
+        "width": 67,
+        "height": 86
+      },
+      "area": 5762,
+      "aspect_ratio": 0.7790697674418605,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV255",
+      "grid_position": "R17-C22",
+      "position": {
+        "x": 3423,
+        "y": 2857,
+        "width": 112,
+        "height": 86
+      },
+      "area": 9632,
+      "aspect_ratio": 1.302325581395349,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV256",
+      "grid_position": "R17-C23",
+      "position": {
+        "x": 3535,
+        "y": 2857,
+        "width": 51,
+        "height": 86
+      },
+      "area": 4386,
+      "aspect_ratio": 0.5930232558139535,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV257",
+      "grid_position": "R17-C25",
+      "position": {
+        "x": 3626,
+        "y": 2857,
+        "width": 127,
+        "height": 86
+      },
+      "area": 10922,
+      "aspect_ratio": 1.4767441860465116,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV258",
+      "grid_position": "R17-C28",
+      "position": {
+        "x": 4371,
+        "y": 2857,
+        "width": 101,
+        "height": 86
+      },
+      "area": 8686,
+      "aspect_ratio": 1.1744186046511629,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV259",
+      "grid_position": "R17-C29",
+      "position": {
+        "x": 4472,
+        "y": 2857,
+        "width": 68,
+        "height": 86
+      },
+      "area": 5848,
+      "aspect_ratio": 0.7906976744186046,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV260",
+      "grid_position": "R17-C30",
+      "position": {
+        "x": 4540,
+        "y": 2857,
+        "width": 81,
+        "height": 86
+      },
+      "area": 6966,
+      "aspect_ratio": 0.9418604651162791,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV261",
+      "grid_position": "R17-C31",
+      "position": {
+        "x": 4621,
+        "y": 2857,
+        "width": 92,
+        "height": 86
+      },
+      "area": 7912,
+      "aspect_ratio": 1.069767441860465,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV262",
+      "grid_position": "R17-C32",
+      "position": {
+        "x": 4713,
+        "y": 2857,
+        "width": 89,
+        "height": 86
+      },
+      "area": 7654,
+      "aspect_ratio": 1.0348837209302326,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV263",
+      "grid_position": "R17-C33",
+      "position": {
+        "x": 4802,
+        "y": 2857,
+        "width": 69,
+        "height": 86
+      },
+      "area": 5934,
+      "aspect_ratio": 0.8023255813953488,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV264",
+      "grid_position": "R17-C34",
+      "position": {
+        "x": 4871,
+        "y": 2857,
+        "width": 82,
+        "height": 86
+      },
+      "area": 7052,
+      "aspect_ratio": 0.9534883720930233,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV265",
+      "grid_position": "R17-C35",
+      "position": {
+        "x": 4953,
+        "y": 2857,
+        "width": 107,
+        "height": 86
+      },
+      "area": 9202,
+      "aspect_ratio": 1.244186046511628,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV266",
+      "grid_position": "R18-C1",
+      "position": {
+        "x": 27,
+        "y": 2943,
+        "width": 68,
+        "height": 70
+      },
+      "area": 4760,
+      "aspect_ratio": 0.9714285714285714,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV267",
+      "grid_position": "R18-C2",
+      "position": {
+        "x": 95,
+        "y": 2943,
+        "width": 114,
+        "height": 70
+      },
+      "area": 7980,
+      "aspect_ratio": 1.6285714285714286,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV268",
+      "grid_position": "R18-C6",
+      "position": {
+        "x": 862,
+        "y": 2943,
+        "width": 67,
+        "height": 70
+      },
+      "area": 4690,
+      "aspect_ratio": 0.9571428571428572,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV269",
+      "grid_position": "R18-C10",
+      "position": {
+        "x": 1338,
+        "y": 2943,
+        "width": 139,
+        "height": 70
+      },
+      "area": 9730,
+      "aspect_ratio": 1.9857142857142858,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV270",
+      "grid_position": "R18-C13",
+      "position": {
+        "x": 2001,
+        "y": 2943,
+        "width": 58,
+        "height": 70
+      },
+      "area": 4060,
+      "aspect_ratio": 0.8285714285714286,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV271",
+      "grid_position": "R18-C14",
+      "position": {
+        "x": 2059,
+        "y": 2943,
+        "width": 137,
+        "height": 70
+      },
+      "area": 9590,
+      "aspect_ratio": 1.957142857142857,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV272",
+      "grid_position": "R18-C17",
+      "position": {
+        "x": 3023,
+        "y": 2943,
+        "width": 124,
+        "height": 70
+      },
+      "area": 8680,
+      "aspect_ratio": 1.7714285714285714,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV273",
+      "grid_position": "R18-C18",
+      "position": {
+        "x": 3147,
+        "y": 2943,
+        "width": 73,
+        "height": 70
+      },
+      "area": 5110,
+      "aspect_ratio": 1.042857142857143,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV274",
+      "grid_position": "R18-C19",
+      "position": {
+        "x": 3220,
+        "y": 2943,
+        "width": 78,
+        "height": 70
+      },
+      "area": 5460,
+      "aspect_ratio": 1.1142857142857143,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV275",
+      "grid_position": "R18-C20",
+      "position": {
+        "x": 3298,
+        "y": 2943,
+        "width": 58,
+        "height": 70
+      },
+      "area": 4060,
+      "aspect_ratio": 0.8285714285714286,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV276",
+      "grid_position": "R18-C21",
+      "position": {
+        "x": 3356,
+        "y": 2943,
+        "width": 67,
+        "height": 70
+      },
+      "area": 4690,
+      "aspect_ratio": 0.9571428571428572,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV277",
+      "grid_position": "R18-C22",
+      "position": {
+        "x": 3423,
+        "y": 2943,
+        "width": 112,
+        "height": 70
+      },
+      "area": 7840,
+      "aspect_ratio": 1.6,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV278",
+      "grid_position": "R18-C23",
+      "position": {
+        "x": 3535,
+        "y": 2943,
+        "width": 51,
+        "height": 70
+      },
+      "area": 3570,
+      "aspect_ratio": 0.7285714285714285,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV279",
+      "grid_position": "R18-C25",
+      "position": {
+        "x": 3626,
+        "y": 2943,
+        "width": 127,
+        "height": 70
+      },
+      "area": 8890,
+      "aspect_ratio": 1.8142857142857143,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV280",
+      "grid_position": "R18-C28",
+      "position": {
+        "x": 4371,
+        "y": 2943,
+        "width": 101,
+        "height": 70
+      },
+      "area": 7070,
+      "aspect_ratio": 1.4428571428571428,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV281",
+      "grid_position": "R18-C29",
+      "position": {
+        "x": 4472,
+        "y": 2943,
+        "width": 68,
+        "height": 70
+      },
+      "area": 4760,
+      "aspect_ratio": 0.9714285714285714,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV282",
+      "grid_position": "R18-C30",
+      "position": {
+        "x": 4540,
+        "y": 2943,
+        "width": 81,
+        "height": 70
+      },
+      "area": 5670,
+      "aspect_ratio": 1.1571428571428573,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV283",
+      "grid_position": "R18-C31",
+      "position": {
+        "x": 4621,
+        "y": 2943,
+        "width": 92,
+        "height": 70
+      },
+      "area": 6440,
+      "aspect_ratio": 1.3142857142857143,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV284",
+      "grid_position": "R18-C32",
+      "position": {
+        "x": 4713,
+        "y": 2943,
+        "width": 89,
+        "height": 70
+      },
+      "area": 6230,
+      "aspect_ratio": 1.2714285714285714,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV285",
+      "grid_position": "R18-C33",
+      "position": {
+        "x": 4802,
+        "y": 2943,
+        "width": 69,
+        "height": 70
+      },
+      "area": 4830,
+      "aspect_ratio": 0.9857142857142858,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV286",
+      "grid_position": "R18-C34",
+      "position": {
+        "x": 4871,
+        "y": 2943,
+        "width": 82,
+        "height": 70
+      },
+      "area": 5740,
+      "aspect_ratio": 1.1714285714285715,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV287",
+      "grid_position": "R18-C35",
+      "position": {
+        "x": 4953,
+        "y": 2943,
+        "width": 107,
+        "height": 70
+      },
+      "area": 7490,
+      "aspect_ratio": 1.5285714285714285,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV288",
+      "position": {
+        "x": 3770,
+        "y": 3011,
+        "width": 100,
+        "height": 119
+      },
+      "area": 10142.0,
+      "aspect_ratio": 0.8403361344537815,
+      "rectangularity": 0.8522689075630252,
+      "contour_area": 10142.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV289",
+      "position": {
+        "x": 3866,
+        "y": 3012,
+        "width": 98,
+        "height": 120
+      },
+      "area": 9823.5,
+      "aspect_ratio": 0.8166666666666667,
+      "rectangularity": 0.8353316326530612,
+      "contour_area": 9823.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV290",
+      "position": {
+        "x": 3962,
+        "y": 3012,
+        "width": 98,
+        "height": 120
+      },
+      "area": 10374.0,
+      "aspect_ratio": 0.8166666666666667,
+      "rectangularity": 0.8821428571428571,
+      "contour_area": 10374.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV291",
+      "grid_position": "R19-C1",
+      "position": {
+        "x": 27,
+        "y": 3013,
+        "width": 68,
+        "height": 104
+      },
+      "area": 7072,
+      "aspect_ratio": 0.6538461538461539,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV292",
+      "grid_position": "R19-C2",
+      "position": {
+        "x": 95,
+        "y": 3013,
+        "width": 114,
+        "height": 104
+      },
+      "area": 11856,
+      "aspect_ratio": 1.0961538461538463,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV293",
+      "grid_position": "R19-C3",
+      "position": {
+        "x": 209,
+        "y": 3013,
+        "width": 172,
+        "height": 104
+      },
+      "area": 17888,
+      "aspect_ratio": 1.6538461538461537,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV294",
+      "grid_position": "R19-C5",
+      "position": {
+        "x": 660,
+        "y": 3013,
+        "width": 202,
+        "height": 104
+      },
+      "area": 21008,
+      "aspect_ratio": 1.9423076923076923,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV295",
+      "grid_position": "R19-C6",
+      "position": {
+        "x": 862,
+        "y": 3013,
+        "width": 67,
+        "height": 104
+      },
+      "area": 6968,
+      "aspect_ratio": 0.6442307692307693,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV296",
+      "grid_position": "R19-C9",
+      "position": {
+        "x": 1172,
+        "y": 3013,
+        "width": 166,
+        "height": 104
+      },
+      "area": 17264,
+      "aspect_ratio": 1.5961538461538463,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV297",
+      "grid_position": "R19-C10",
+      "position": {
+        "x": 1338,
+        "y": 3013,
+        "width": 139,
+        "height": 104
+      },
+      "area": 14456,
+      "aspect_ratio": 1.3365384615384615,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV298",
+      "grid_position": "R19-C13",
+      "position": {
+        "x": 2001,
+        "y": 3013,
+        "width": 58,
+        "height": 104
+      },
+      "area": 6032,
+      "aspect_ratio": 0.5576923076923077,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV299",
+      "grid_position": "R19-C14",
+      "position": {
+        "x": 2059,
+        "y": 3013,
+        "width": 137,
+        "height": 104
+      },
+      "area": 14248,
+      "aspect_ratio": 1.3173076923076923,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV300",
+      "grid_position": "R19-C17",
+      "position": {
+        "x": 3023,
+        "y": 3013,
+        "width": 124,
+        "height": 104
+      },
+      "area": 12896,
+      "aspect_ratio": 1.1923076923076923,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV301",
+      "grid_position": "R19-C18",
+      "position": {
+        "x": 3147,
+        "y": 3013,
+        "width": 73,
+        "height": 104
+      },
+      "area": 7592,
+      "aspect_ratio": 0.7019230769230769,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV302",
+      "grid_position": "R19-C19",
+      "position": {
+        "x": 3220,
+        "y": 3013,
+        "width": 78,
+        "height": 104
+      },
+      "area": 8112,
+      "aspect_ratio": 0.75,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV303",
+      "grid_position": "R19-C20",
+      "position": {
+        "x": 3298,
+        "y": 3013,
+        "width": 58,
+        "height": 104
+      },
+      "area": 6032,
+      "aspect_ratio": 0.5576923076923077,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV304",
+      "grid_position": "R19-C21",
+      "position": {
+        "x": 3356,
+        "y": 3013,
+        "width": 67,
+        "height": 104
+      },
+      "area": 6968,
+      "aspect_ratio": 0.6442307692307693,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV305",
+      "grid_position": "R19-C22",
+      "position": {
+        "x": 3423,
+        "y": 3013,
+        "width": 112,
+        "height": 104
+      },
+      "area": 11648,
+      "aspect_ratio": 1.0769230769230769,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV306",
+      "grid_position": "R19-C25",
+      "position": {
+        "x": 3626,
+        "y": 3013,
+        "width": 127,
+        "height": 104
+      },
+      "area": 13208,
+      "aspect_ratio": 1.2211538461538463,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV307",
+      "grid_position": "R19-C33",
+      "position": {
+        "x": 4802,
+        "y": 3013,
+        "width": 69,
+        "height": 104
+      },
+      "area": 7176,
+      "aspect_ratio": 0.6634615384615384,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV308",
+      "position": {
+        "x": 4058,
+        "y": 3014,
+        "width": 97,
+        "height": 120
+      },
+      "area": 10346.5,
+      "aspect_ratio": 0.8083333333333333,
+      "rectangularity": 0.8888745704467353,
+      "contour_area": 10346.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV309",
+      "position": {
+        "x": 4155,
+        "y": 3016,
+        "width": 94,
+        "height": 120
+      },
+      "area": 9950.0,
+      "aspect_ratio": 0.7833333333333333,
+      "rectangularity": 0.8820921985815603,
+      "contour_area": 9950.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV310",
+      "position": {
+        "x": 4359,
+        "y": 3018,
+        "width": 90,
+        "height": 122
+      },
+      "area": 10483.0,
+      "aspect_ratio": 0.7377049180327869,
+      "rectangularity": 0.954735883424408,
+      "contour_area": 10483.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV311",
+      "position": {
+        "x": 4454,
+        "y": 3020,
+        "width": 94,
+        "height": 122
+      },
+      "area": 10498.0,
+      "aspect_ratio": 0.7704918032786885,
+      "rectangularity": 0.9154168119986048,
+      "contour_area": 10498.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV312",
+      "position": {
+        "x": 4549,
+        "y": 3023,
+        "width": 96,
+        "height": 121
+      },
+      "area": 10266.0,
+      "aspect_ratio": 0.7933884297520661,
+      "rectangularity": 0.8837809917355371,
+      "contour_area": 10266.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV313",
+      "position": {
+        "x": 4644,
+        "y": 3025,
+        "width": 99,
+        "height": 123
+      },
+      "area": 10555.0,
+      "aspect_ratio": 0.8048780487804879,
+      "rectangularity": 0.8667980619200132,
+      "contour_area": 10555.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV314",
+      "position": {
+        "x": 4740,
+        "y": 3026,
+        "width": 100,
+        "height": 124
+      },
+      "area": 10794.0,
+      "aspect_ratio": 0.8064516129032258,
+      "rectangularity": 0.8704838709677419,
+      "contour_area": 10794.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV315",
+      "position": {
+        "x": 4836,
+        "y": 3028,
+        "width": 104,
+        "height": 124
+      },
+      "area": 10733.0,
+      "aspect_ratio": 0.8387096774193549,
+      "rectangularity": 0.8322735732009926,
+      "contour_area": 10733.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV316",
+      "position": {
+        "x": 4938,
+        "y": 3032,
+        "width": 105,
+        "height": 124
+      },
+      "area": 10646.5,
+      "aspect_ratio": 0.8467741935483871,
+      "rectangularity": 0.8177035330261136,
+      "contour_area": 10646.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV317",
+      "position": {
+        "x": 5225,
+        "y": 3037,
+        "width": 114,
+        "height": 120
+      },
+      "area": 10495.5,
+      "aspect_ratio": 0.95,
+      "rectangularity": 0.7672149122807017,
+      "contour_area": 10495.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV318",
+      "position": {
+        "x": 5419,
+        "y": 3043,
+        "width": 118,
+        "height": 119
+      },
+      "area": 10257.5,
+      "aspect_ratio": 0.9915966386554622,
+      "rectangularity": 0.7304871100982766,
+      "contour_area": 10257.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV319",
+      "grid_position": "R21-C2",
+      "position": {
+        "x": 95,
+        "y": 3159,
+        "width": 114,
+        "height": 218
+      },
+      "area": 24852,
+      "aspect_ratio": 0.5229357798165137,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV320",
+      "grid_position": "R21-C3",
+      "position": {
+        "x": 209,
+        "y": 3159,
+        "width": 172,
+        "height": 218
+      },
+      "area": 37496,
+      "aspect_ratio": 0.7889908256880734,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV321",
+      "grid_position": "R21-C4",
+      "position": {
+        "x": 381,
+        "y": 3159,
+        "width": 279,
+        "height": 218
+      },
+      "area": 60822,
+      "aspect_ratio": 1.2798165137614679,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV322",
+      "grid_position": "R21-C5",
+      "position": {
+        "x": 660,
+        "y": 3159,
+        "width": 202,
+        "height": 218
+      },
+      "area": 44036,
+      "aspect_ratio": 0.926605504587156,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV323",
+      "grid_position": "R21-C8",
+      "position": {
+        "x": 962,
+        "y": 3159,
+        "width": 210,
+        "height": 218
+      },
+      "area": 45780,
+      "aspect_ratio": 0.963302752293578,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV324",
+      "grid_position": "R21-C9",
+      "position": {
+        "x": 1172,
+        "y": 3159,
+        "width": 166,
+        "height": 218
+      },
+      "area": 36188,
+      "aspect_ratio": 0.7614678899082569,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV325",
+      "grid_position": "R21-C10",
+      "position": {
+        "x": 1338,
+        "y": 3159,
+        "width": 139,
+        "height": 218
+      },
+      "area": 30302,
+      "aspect_ratio": 0.6376146788990825,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV326",
+      "grid_position": "R21-C12",
+      "position": {
+        "x": 1786,
+        "y": 3159,
+        "width": 215,
+        "height": 218
+      },
+      "area": 46870,
+      "aspect_ratio": 0.9862385321100917,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV327",
+      "grid_position": "R21-C14",
+      "position": {
+        "x": 2059,
+        "y": 3159,
+        "width": 137,
+        "height": 218
+      },
+      "area": 29866,
+      "aspect_ratio": 0.6284403669724771,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV328",
+      "grid_position": "R21-C17",
+      "position": {
+        "x": 3023,
+        "y": 3159,
+        "width": 124,
+        "height": 218
+      },
+      "area": 27032,
+      "aspect_ratio": 0.5688073394495413,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV329",
+      "grid_position": "R21-C22",
+      "position": {
+        "x": 3423,
+        "y": 3159,
+        "width": 112,
+        "height": 218
+      },
+      "area": 24416,
+      "aspect_ratio": 0.5137614678899083,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV330",
+      "grid_position": "R21-C25",
+      "position": {
+        "x": 3626,
+        "y": 3159,
+        "width": 127,
+        "height": 218
+      },
+      "area": 27686,
+      "aspect_ratio": 0.5825688073394495,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV331",
+      "position": {
+        "x": 3758,
+        "y": 3159,
+        "width": 104,
+        "height": 127
+      },
+      "area": 10864.5,
+      "aspect_ratio": 0.8188976377952756,
+      "rectangularity": 0.8225696547546941,
+      "contour_area": 10864.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV332",
+      "grid_position": "R21-C36",
+      "position": {
+        "x": 5060,
+        "y": 3159,
+        "width": 285,
+        "height": 218
+      },
+      "area": 62130,
+      "aspect_ratio": 1.3073394495412844,
+      "detection_method": "grid"
+    },
+    {
+      "id": "PV333",
+      "position": {
+        "x": 3954,
+        "y": 3162,
+        "width": 102,
+        "height": 128
+      },
+      "area": 11189.0,
+      "aspect_ratio": 0.796875,
+      "rectangularity": 0.8570006127450981,
+      "contour_area": 11189.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV334",
+      "position": {
+        "x": 4152,
+        "y": 3166,
+        "width": 97,
+        "height": 127
+      },
+      "area": 10207.0,
+      "aspect_ratio": 0.7637795275590551,
+      "rectangularity": 0.8285575127851287,
+      "contour_area": 10207.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV335",
+      "position": {
+        "x": 4357,
+        "y": 3170,
+        "width": 93,
+        "height": 58
+      },
+      "area": 4956.0,
+      "aspect_ratio": 1.603448275862069,
+      "rectangularity": 0.9187986651835373,
+      "contour_area": 4956.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV336",
+      "position": {
+        "x": 4454,
+        "y": 3173,
+        "width": 93,
+        "height": 57
+      },
+      "area": 4821.5,
+      "aspect_ratio": 1.631578947368421,
+      "rectangularity": 0.9095453687983399,
+      "contour_area": 4821.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV337",
+      "position": {
+        "x": 4650,
+        "y": 3178,
+        "width": 96,
+        "height": 56
+      },
+      "area": 4736.0,
+      "aspect_ratio": 1.7142857142857142,
+      "rectangularity": 0.8809523809523809,
+      "contour_area": 4736.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV338",
+      "position": {
+        "x": 4748,
+        "y": 3181,
+        "width": 97,
+        "height": 55
+      },
+      "area": 4635.5,
+      "aspect_ratio": 1.7636363636363637,
+      "rectangularity": 0.8688847235238988,
+      "contour_area": 4635.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV339",
+      "position": {
+        "x": 4846,
+        "y": 3184,
+        "width": 97,
+        "height": 54
+      },
+      "area": 4558.0,
+      "aspect_ratio": 1.7962962962962963,
+      "rectangularity": 0.8701794578083238,
+      "contour_area": 4558.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV340",
+      "position": {
+        "x": 4253,
+        "y": 3228,
+        "width": 91,
+        "height": 48
+      },
+      "area": 3907.0,
+      "aspect_ratio": 1.8958333333333333,
+      "rectangularity": 0.894459706959707,
+      "contour_area": 3907.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV341",
+      "position": {
+        "x": 4556,
+        "y": 3235,
+        "width": 93,
+        "height": 49
+      },
+      "area": 3964.5,
+      "aspect_ratio": 1.8979591836734695,
+      "rectangularity": 0.8699802501645819,
+      "contour_area": 3964.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV342",
+      "position": {
+        "x": 4665,
+        "y": 3236,
+        "width": 83,
+        "height": 49
+      },
+      "area": 3556.5,
+      "aspect_ratio": 1.6938775510204083,
+      "rectangularity": 0.8744775018441111,
+      "contour_area": 3556.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV343",
+      "position": {
+        "x": 4770,
+        "y": 3239,
+        "width": 81,
+        "height": 49
+      },
+      "area": 3304.5,
+      "aspect_ratio": 1.653061224489796,
+      "rectangularity": 0.8325774754346182,
+      "contour_area": 3304.5,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV344",
+      "position": {
+        "x": 4875,
+        "y": 3241,
+        "width": 74,
+        "height": 49
+      },
+      "area": 3009.0,
+      "aspect_ratio": 1.510204081632653,
+      "rectangularity": 0.8298400441257584,
+      "contour_area": 3009.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV345",
+      "position": {
+        "x": 3747,
+        "y": 3364,
+        "width": 60,
+        "height": 43
+      },
+      "area": 1884.0,
+      "aspect_ratio": 1.3953488372093024,
+      "rectangularity": 0.7302325581395349,
+      "contour_area": 1884.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV346",
+      "position": {
+        "x": 3810,
+        "y": 3365,
+        "width": 36,
+        "height": 43
+      },
+      "area": 1127.0,
+      "aspect_ratio": 0.8372093023255814,
+      "rectangularity": 0.7280361757105943,
+      "contour_area": 1127.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV347",
+      "position": {
+        "x": 3947,
+        "y": 3369,
+        "width": 59,
+        "height": 45
+      },
+      "area": 2185.0,
+      "aspect_ratio": 1.3111111111111111,
+      "rectangularity": 0.8229755178907722,
+      "contour_area": 2185.0,
+      "detection_method": "contour"
+    },
+    {
+      "id": "PV348",
+      "position": {
+        "x": 4048,
+        "y": 3371,
+        "width": 68,
+        "height": 46
+      },
+      "area": 2572.0,
+      "aspect_ratio": 1.4782608695652173,
+      "rectangularity": 0.8222506393861893,
+      "contour_area": 2572.0,
+      "detection_method": "contour"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "method": "precise_pv_segmentation",
+  "total_panels": 0,
+  "detection_time": "2025-06-16T19:43:24.719266",
+  "image_size": {
+    "width": 8000,
+    "height": 6000
+  },
+  "panels": []
+}
